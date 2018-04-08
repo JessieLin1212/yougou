@@ -1,0 +1,26 @@
+{
+  "name": "yougou",
+  "version": "1.0.0",
+  "description": "yougou网",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JessieLin1212/yougou.git"
+  },
+  "keywords": [
+    "yougou网"
+  ],
+  "author": "JessieLin1212",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JessieLin1212/yougou/issues"
+  },
+  "homepage": "https://github.com/JessieLin1212/yougou#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
