@@ -1,0 +1,601 @@
+
+.tps{
+    // height: 16000px;
+    #banner{
+        width: 1263px;
+        height: 450px;
+        margin: 0 auto;
+        .banner_box{
+            width: 1263px;
+            height: 450px;
+            overflow: hidden;
+            position:relative;
+            margin: 0 auto;
+            ul{
+                // width: 100%;
+                // float: left;
+                height: 450px;
+                position:absolute;
+                overflow: hidden;
+                li{
+                    width: 1263px;
+                    height: 450px;
+                    margin: 0 auto;
+                    float: left;
+                    background-size: cover;
+                    text-align: center;
+                    cursor: pointer;
+                    &.banner1{
+                        background: url("../img/banner1.jpg") center center no-repeat rgb(149, 10, 13);
+                    }
+                    &.banner2{
+                        background: url("../img/banner2.jpg") center center no-repeat rgb(149, 10, 13);
+                    }
+                    &.banner3{
+                        background: url("../img/banner3.jpg") center center no-repeat rgb(75, 173, 201);
+                    }
+                }
+            }
+            .page{
+                position:absolute;
+                left:50%;
+                margin-left: -61px;
+                bottom:0;
+                padding:10px;
+                span{
+                    display:inline-block;
+                    margin:0 5px;
+                    width:22px;
+                    height:22px;
+                    line-height:22px;
+                    background: #D6D6D6;
+                    color: #000;
+                    border-radius: 50%;
+                    cursor: pointer;
+                    font-size: 12px;
+                    text-align: center;
+                    &.active{
+                        background-color: rgba(0,0,0,.9);
+                        color: #fff;
+                    }
+                }
+            } 
+        }
+    }
+
+    #xinpin{
+        // height: 880px;
+        // .container{
+            // height: 880px;
+            // background: green;
+        // }
+        .xinpin_box{
+            padding-top: 52px;
+            .xinpin_t{
+                margin-bottom: 10px;
+                text-align: center;
+                h3{
+                    height: 37px;
+                    line-height: 37px;
+                    display: inline-block;
+                    font-size: 25px;
+                    color: #333;
+                }
+                >p{
+                    display: inline-block;
+                    font-size: 20px;
+                    margin: 0 10px;
+                    color: #333;
+                }
+                >span{
+                    font-size: 14px;
+                }
+                >a{
+                    display: block;
+                    float: right;
+                    font-size: 14px;
+                    margin-top: 12px;
+                    color: #666;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+            .xinpin_b{
+                // height: 781px;
+                width: 1196px;
+                margin: 0 auto;
+                border-left: 1px solid #ddd;
+                border-top: 1px solid #ddd;
+                >li{
+                    width: 239px;
+                    height: 260px;
+                    float: left;
+                    overflow: hidden;
+                    border-right: 1px solid #ddd;
+                    border-bottom: 1px solid #ddd;
+                    position: relative;
+                    a{
+                        display: block;
+                        color: #333;
+                        .xinpin_icon{
+                            width: 28px;
+                            height: 28px;
+                            border-radius:50%;
+                            position: absolute;
+                            top: 10px;
+                            right: 10px;
+                            background: #ffc41f;
+                            i{
+                                display: block;
+                                font-size: 20px;
+                                color: #fff;
+                                margin-top: 6px;
+                                margin-left: 4px;
+                            }
+                        }
+                        .icon2{
+                            background: #333157;
+                            top: 48px;
+                            right: 10px;
+                        }
+                        .img_box{
+                            width: 238px;
+                            height: 180px;
+                            display: table-cell;
+                            vertical-align:middle;
+                            text-align: center;
+                            img{
+                                width: 160px;
+                                height: 160px;
+                            }
+                        }
+                        .xinpin_neirong{
+                            padding: 2px 10px 0;
+                            position: relative;
+                            top:0px;
+                            text-align: center;
+                            margin: 0px auto;
+                            background-color: rgba(255,255,255,.6);
+                            h3{
+                                height: 40px;
+                                line-height: 21px;
+                                font-size: 14px;
+                                color: #555;
+                                // overflow: hidden;
+                            }
+                            .xinpin_price{
+                                height: auto;
+                                color: #ed4242;
+                                margin: 13px 0 9px 0;
+                                font-size: 18px;
+                            }
+                            .xinpin_guojia{
+                                padding-left: 78px;
+                                text-align: left;
+                                height: 20px;
+                                color: #999;
+                                position: relative;
+                                i{
+                                    display: block;
+                                    width: 16px;
+                                    height: 10px;
+                                    background: url("../img/ico-country.png") no-repeat 0 -11px;
+                                    position: absolute;
+                                    top: 4px;
+                                    right: 40%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+
+    #remai{
+        // height: 880px;
+        .container{
+            // height: 880px;
+            // background: green;
+        }
+        .remai_box{
+            padding-top: 52px;
+            .remai_t{
+                margin-bottom: 10px;
+                text-align: center;
+                h3{
+                    height: 37px;
+                    line-height: 37px;
+                    display: inline-block;
+                    font-size: 25px;
+                    color: #333;
+                }
+                >p{
+                    display: inline-block;
+                    font-size: 20px;
+                    margin: 0 10px;
+                    color: #333;
+                }
+                >span{
+                    font-size: 14px;
+                }
+                >a{
+                    display: block;
+                    float: right;
+                    font-size: 14px;
+                    margin-top: 12px;
+                    color: #666;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+            .remai_b{
+                // height: 781px;
+                width: 1198px;
+                margin: 0 auto;
+                border-left: 1px solid #ddd;
+                border-top: 1px solid #ddd;
+                >li{
+                    width: 399px;
+                    // height: 180px;
+                    float: left;
+                    padding: 10px 0;
+                    border-right: 1px solid #ddd;
+                    border-bottom: 1px solid #ddd;
+                    position: relative;
+                    a{
+                        display: block;
+                        // height: 180px;
+                        padding-top: 19px;
+                        color: #333;
+                        .remai_icon{
+                            width: 28px;
+                            height: 28px;
+                            border-radius:50%;
+                            position: absolute;
+                            top: 10px;
+                            left: 10px;
+                            background: #ed4242;
+                            i{
+                                display: block;
+                                font-size: 20px;
+                                color: #fff;
+                                margin-top: 6px;
+                                margin-left: 4px;
+                            }
+                        }
+                        .icon2{
+                            background: #333157;
+                            top: 48px;
+                        }
+                        .img_box{
+                            width: 180px;
+                            height: 140px;
+                            display: table-cell;
+                            float: left;
+                            vertical-align:middle;
+                            text-align: center;
+                            img{
+                                width: 120px;
+                                height: 120px;
+                            }
+                        }
+                        .remai_neirong{
+                            float: left;
+                            width: 186px;
+                            text-align: left;
+                            // margin: 0 0 10px;
+                            margin-top: -8px;
+                            padding: 0 6px;
+                            h3{
+                                height: 40px;
+                                line-height: 22px;
+                                font-size: 14px;
+                                color: #555;
+                                // white-space: nowrap;
+                                overflow: hidden;
+                                // text-overflow: ellipsis;
+                            }
+                            .remai_price{
+                                height: auto;
+                                color: #ed4242;
+                                margin: 20px 0 11px 0;
+                                font-size: 18px;
+                            }
+                            .remai_guojia{
+                                // padding-left: 78px;
+                                text-align: left;
+                                height: 20px;
+                                color: #999;
+                                position: relative;
+                                i{
+                                    display: block;
+                                    width: 16px;
+                                    height: 11px;
+                                    background: url("../img/ico-country.png") no-repeat 0 -11px;
+                                    border: 1px solid #ddd;
+                                    position: absolute;
+                                    top: 4px;
+                                    left: 38px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+
+    #quanqiugou{
+        padding-top: 52px;
+        // .container{
+
+        // }
+        .quanqiugou_box{
+            padding-top: 52px;
+            .quanqiugou_t{
+                // margin-bottom: 10px;
+                text-align: center;
+                h3{
+                    height: 37px;
+                    line-height: 37px;
+                    display: inline-block;
+                    font-size: 25px;
+                    color: #333;
+                }
+                >p{
+                    display: inline-block;
+                    font-size: 20px;
+                    margin: 0 10px;
+                    color: #333;
+                }
+                >span{
+                    font-size: 14px;
+                }
+            }
+            .quanqiugou_b{
+                margin: 60px 20px 0;
+                li{
+                    float: left;
+                    width: 25%;
+                    position: relative;
+                    // background: #58bc58;
+                    &.li_row2{
+                        margin-top: 70px;
+                    }
+                    a{
+                        display: block;
+                        width: 157px;
+                        height: 157px;
+                        border-radius:50%;
+                        background: url("../img/quanqiugou.png") no-repeat 0 0;
+                        margin: 0 auto;
+                        position: relative;
+                        // position: absolute;
+                        top: 0px;
+                    }
+                }
+            }
+        }
+    }
+
+    #shipin{
+        padding-top: 50px;
+        .shipin_top{
+            margin-bottom: 20px;
+            text-align: center;
+            position: relative;
+            h2{
+                // display: inline-block;
+                height: 36px;
+                line-height: 36px;
+                font-size: 25px;
+                font-weight: 600;
+                color: #333;
+            }
+            p{
+                margin-top: 10px;
+                color: #999;
+                a{
+                    display: inline-block;
+                    // width: 24px;
+                    // height: 16px;
+                    padding: 3px 8px;
+                    margin: 0 8px;
+                    // font-size: 12px;
+                    line-height: 16px;
+                }
+            }
+            a.shipin_more{
+                position: absolute;
+                bottom: 2px;
+                right: 0;
+                margin-right: 3px;
+            }
+        }
+        .shipin_c{
+            width: 1196px;
+            height: 350px;
+            margin: 0 auto;
+            overflow: hidden;
+            border: 1px solid #ddd;
+            border-bottom: 0 none;
+            .shipin_nav{
+                width: 238px;
+                float: left;
+                ul{
+                    height: 156px;
+                    padding: 10px;
+                    overflow: hidden;
+                    li{
+                        width: 50%;
+                        float: left;
+                        a{
+                            display: block;
+                            padding: 0 10px;
+                            text-align: center;
+                            line-height: 30px;
+                            overflow: hidden;
+                            text-overflow:ellipsis;
+                            white-space:nowrap;
+                        }
+                    }
+                }
+            }
+            .shipin_banner{
+                height: 350px;
+                width: 718px;
+                float: left;
+                border-right: 1px solid #ddd;
+                border-left: 1px solid #ddd;
+                // background: #000;
+                .sp_banner_box{
+                    width: 718px;
+                    overflow: hidden;
+                    ul{
+                        height: 350px;
+                        li{
+                            float: left;
+                            width: 718px;
+                            img{
+                                width: 716px;
+                                height: 350px;
+                            }
+                        }
+                    }
+                }
+            }
+            .shipin_shangjia{
+                height: 350px;
+                float: right;
+                ul{
+                    width: 237px;
+                    li{
+                        a{
+                            display: block;
+                            width: 200px;
+                            height: 66px;
+                            margin: 10px 0 0 18px;
+                            border-bottom: 1px dotted #ddd;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+        .shipin_b{
+            .xinpin_b{
+                // height: 781px;
+                width: 1196px;
+                margin: 0 auto;
+                border-left: 1px solid #ddd;
+                border-top: 1px solid #ddd;
+                >li{
+                    width: 239px;
+                    height: 260px;
+                    float: left;
+                    overflow: hidden;
+                    border-right: 1px solid #ddd;
+                    border-bottom: 1px solid #ddd;
+                    position: relative;
+                    a{
+                        display: block;
+                        color: #333;
+                        .xinpin_icon{
+                            width: 28px;
+                            height: 28px;
+                            border-radius:50%;
+                            position: absolute;
+                            top: 10px;
+                            right: 10px;
+                            background: #ed4242;
+                            i{
+                                display: block;
+                                font-size: 20px;
+                                color: #fff;
+                                margin-top: 6px;
+                                margin-left: 4px;
+                            }
+                        }
+                        .icon2{
+                            background: #333157;
+                            top: 50px;
+                            right: 10px;
+                        }
+                        .img_box{
+                            width: 238px;
+                            height: 180px;
+                            display: table-cell;
+                            vertical-align:middle;
+                            text-align: center;
+                            img{
+                                width: 160px;
+                                height: 160px;
+                            }
+                        }
+                        .xinpin_neirong{
+                            padding: 2px 10px 0;
+                            text-align: center;
+                            margin: 0px auto;
+                            h3{
+                                height: 40px;
+                                line-height: 23px;
+                                font-size: 14px;
+                                color: #555;
+                                overflow: hidden;
+                            }
+                            .xinpin_price{
+                                height: auto;
+                                color: #ed4242;
+                                margin: 13px 0 9px 0;
+                                font-size: 18px;
+                            }
+                            .xinpin_guojia{
+                                padding-left: 78px;
+                                text-align: left;
+                                height: 20px;
+                                color: #999;
+                                position: relative;
+                                i{
+                                    display: block;
+                                    width: 16px;
+                                    height: 10px;
+                                    background: url("../img/ico-country.png") no-repeat 0 -11px;
+                                    position: absolute;
+                                    top: 4px;
+                                    right: 40%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #to_top{
+        width: 30px;
+        height: 30px;
+        position: fixed;
+        top: 82%;
+        right: 0.1%;
+        background: rgba(7,7,7,.5);
+        border-radius:6px;
+        text-align: center;
+        cursor: pointer;
+        i{
+            display: inline-block;
+            font-size: 22px;
+            color: #fff;
+            margin-top: 7px;
+        }
+        &:hover{
+            background: rgba(255,0,0,.8);
+        }
+    }
+
+}
