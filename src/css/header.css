@@ -1,0 +1,452 @@
+#pageHeader {
+  height: 32px;
+  background: #F4F4F6;
+}
+
+#pageHeader .head_l > li {
+  float: left;
+  font-size: 14px;
+  position: relative;
+}
+
+#pageHeader .head_l > li:first-child a {
+  background: white;
+  border-left: 1px solid #e9e9e9;
+}
+
+#pageHeader .head_l > li a {
+  display: inline-block;
+  width: 100px;
+  height: 32px;
+  line-height: 32px;
+  float: left;
+  text-align: center;
+  border-right: 1px solid #e9e9e9;
+  position: relative;
+}
+
+#pageHeader .head_l > li a i {
+  display: inline-block;
+  position: absolute;
+  top: 1px;
+  font-size: 12px;
+  color: #A0A0A0;
+}
+
+#pageHeader .head_l > li a i:first-child {
+  color: #C81623;
+  font-size: 16px;
+  left: 5px;
+}
+
+#pageHeader .head_l > li .phone_yg {
+  display: none;
+  z-index: 10;
+  width: 380px;
+  position: absolute;
+  top: 32px;
+  left: -1px;
+  border: 1px solid #dfdedf;
+  border-top: 0 none;
+  text-align: center;
+  font-size: 18px;
+  padding: 19px 20px;
+  background: #fff;
+}
+
+#pageHeader .head_l > li .phone_yg p {
+  display: inline-block;
+  padding-top: 5px;
+}
+
+#pageHeader .head_l > li .phone_yg p b {
+  color: #000;
+}
+
+#pageHeader .head_l > li:nth-child(2):hover a {
+  background: white;
+}
+
+#pageHeader .head_l > li:nth-child(2):hover .phone_yg {
+  display: block;
+}
+
+#pageHeader .head_r > li {
+  float: left;
+  position: relative;
+}
+
+#pageHeader .head_r > li > a {
+  display: inline-block;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  padding: 0 20px 0 15px;
+  position: relative;
+}
+
+#pageHeader .head_r > li > a.sy_login, #pageHeader .head_r > li > a.sy_reg {
+  color: #e60012;
+  padding: 0 10px;
+}
+
+#pageHeader .head_r > li > a.sy_reg span {
+  padding-right: 15px;
+  border-right: 1px solid #666;
+}
+
+#pageHeader .head_r > li > a.sy_dingdan {
+  padding-right: 10px;
+}
+
+#pageHeader .head_r > li > a i {
+  font-size: 12px;
+  color: #A0A0A0;
+  position: absolute;
+  top: 1px;
+  right: 6px;
+}
+
+#pageHeader .head_r > li > .head_nav {
+  display: none;
+  border: 1px solid #dfdedf;
+  border-top: 0 none;
+  position: absolute;
+  top: 32px;
+  padding: 10px 15px;
+  text-align: left;
+  background: #fff;
+  z-index: 10;
+}
+
+#pageHeader .head_r > li > .head_nav > li > a {
+  display: inline-block;
+  line-height: 20px;
+}
+
+#pageHeader .head_r > li > .head_nav.sy_sc {
+  width: 85px;
+  left: -1px;
+}
+
+#pageHeader .head_r > li > .head_nav.sy_gaoshi {
+  left: -178px;
+  width: 238px;
+}
+
+#pageHeader .head_r > li > .head_nav.sy_gengduo {
+  width: 92px;
+  left: -32px;
+}
+
+#pageHeader .head_r > li.head_hover:hover {
+  background: white;
+  border-left: 1px solid #dfdedf;
+  border-right: 1px solid #dfdedf;
+  margin-left: -1px;
+  margin-right: -1px;
+}
+
+#pageHeader .head_r > li.head_hover:hover .head_nav {
+  display: block;
+}
+
+.yg_tab {
+  padding-top: 22px;
+  padding-bottom: 15px;
+  background: #F8F8F8;
+}
+
+.yg_tab h1 {
+  height: 89px;
+  background: url("../img/yg_logo.jpg") center center no-repeat;
+}
+
+.yg_tab h1 a {
+  display: block;
+  width: 203px;
+  height: 89px;
+}
+
+.yg_tab .yg_tab_c {
+  margin-top: 21px;
+  margin-left: 105px;
+}
+
+.yg_tab .yg_tab_c .search_txt {
+  width: 433px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 14px;
+  padding: 0 8px;
+  border: 2px solid #000000;
+  border-right: 0 none;
+}
+
+.yg_tab .yg_tab_c .search_btn {
+  width: 83px;
+  height: 32px;
+  line-height: 32px;
+  background: #000000;
+  color: #fff;
+  padding-left: 23px;
+  font-size: 16px;
+  position: relative;
+  cursor: pointer;
+}
+
+.yg_tab .yg_tab_c .search_btn i {
+  position: absolute;
+  font-size: 22px;
+  left: 8px;
+  top: 0px;
+}
+
+.yg_tab .yg_tab_c .yg_tab_cb {
+  float: left;
+  padding-top: 14px;
+}
+
+.yg_tab .yg_tab_c .yg_tab_cb li {
+  float: left;
+}
+
+.yg_tab .yg_tab_c .yg_tab_cb li a {
+  padding: 0 4px;
+  border-right: 1px solid #666;
+}
+
+.yg_tab .yg_tab_c .yg_tab_cb li:first-child a {
+  padding-left: 0px;
+}
+
+.yg_tab .yg_tab_r {
+  margin-top: 21px;
+}
+
+.yg_tab .yg_tab_r .yg_car {
+  display: block;
+  color: #666;
+  width: 146px;
+  height: 32px;
+  line-height: 32px;
+  border: 1px solid #d1d3d4;
+  background: #fff;
+  cursor: pointer;
+  position: relative;
+  padding-left: 45px;
+}
+
+.yg_tab .yg_tab_r .yg_car i {
+  position: absolute;
+  right: 10px;
+  color: #e60012;
+  font-size: 12px;
+}
+
+.yg_tab .yg_tab_r .yg_car i:first-child {
+  left: 8px;
+  font-size: 24px;
+}
+
+.yg_tab .yg_tab_r .yg_car span {
+  color: #e60012;
+}
+
+.yg_tab .yg_tab_r p {
+  padding-top: 14px;
+  color: #e60012;
+  font-size: 13px;
+}
+
+.yg_nav {
+  background: #f8f8f8;
+  border-bottom: 3px solid #000;
+}
+
+.yg_nav .all_fenlei {
+  position: relative;
+}
+
+.yg_nav .all_fenlei h3 a {
+  display: block;
+  color: #fff;
+  width: 200px;
+  height: 39px;
+  line-height: 42px;
+  background: #000;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.yg_nav .all_fenlei .fenlei_nav {
+  position: absolute;
+  width: 200px;
+  background: #f5f5f5;
+  top: 42px;
+  border: 1px solid #d1d3d4;
+  border-top: 0 none;
+}
+
+.yg_nav .all_fenlei .fenlei_nav > li {
+  padding: 12px 10px 12px;
+}
+
+.yg_nav .all_fenlei .fenlei_nav > li h4 {
+  height: 23px;
+  margin-bottom: 6px;
+}
+
+.yg_nav .all_fenlei .fenlei_nav > li h4 i {
+  display: inline-block;
+  width: 26px;
+  height: 20px;
+  float: left;
+  background: url("../img/nav_img.jpg") no-repeat 0 -26px;
+}
+
+.yg_nav .all_fenlei .fenlei_nav > li h4 > a {
+  float: left;
+  padding-top: 2px;
+  color: #333;
+  font-weight: bold;
+}
+
+.yg_nav .all_fenlei .fenlei_nav > li h4 > a:hover {
+  text-decoration: underline;
+}
+
+.yg_nav .all_fenlei .fenlei_nav > li > p {
+  padding-left: 25px;
+}
+
+.yg_nav .all_fenlei .fenlei_nav > li > p a {
+  padding-right: 5px;
+  color: #666;
+}
+
+.yg_nav .all_fenlei .fenlei_nav > li > p a:hover {
+  text-decoration: underline;
+}
+
+.yg_nav .all_fenlei .fenlei_nav > li:hover {
+  background: #666;
+}
+
+.yg_nav .all_fenlei .fenlei_nav > li:hover i {
+  background-position: -53px -26px;
+}
+
+.yg_nav .all_fenlei .fenlei_nav > li:hover > h4 > a, .yg_nav .all_fenlei .fenlei_nav > li:hover > p > a {
+  color: #fff;
+}
+
+.yg_nav .all_fenlei .fenlei_nav > li .yg_menu {
+  display: none;
+  position: absolute;
+  width: 150px;
+  height: 490px;
+  top: 0px;
+  left: 198px;
+  border: 1px solid #d1d3d4;
+  background: #fff;
+  padding-left: 15px;
+  padding-top: 10px;
+  z-index: 10;
+}
+
+.yg_nav .all_fenlei .fenlei_nav > li .yg_menu > li {
+  padding-bottom: 15px;
+}
+
+.yg_nav .all_fenlei .fenlei_nav > li .yg_menu > li .menu_title {
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+
+.yg_nav .all_fenlei .fenlei_nav > li .yg_menu > li .menu_title > a {
+  display: block;
+  width: 120px;
+  height: 18px;
+  line-height: 19px;
+  text-align: center;
+  background: #f5f5f5;
+  font-size: 13px;
+  color: #000;
+  font-weight: bold;
+}
+
+.yg_nav .all_fenlei .fenlei_nav > li .yg_menu > li .menu_fenlei > a {
+  display: inline-block;
+  width: 59px;
+  height: 20px;
+  line-height: 20px;
+  margin-left: 5px;
+}
+
+.yg_nav .all_fenlei .fenlei_nav > li:hover .yg_menu {
+  display: block;
+}
+
+.yg_nav .all_fenlei .fenlei_nav > li:nth-child(2) i {
+  background-position: 0 -1px;
+}
+
+.yg_nav .all_fenlei .fenlei_nav > li:nth-child(2):hover i {
+  background-position: -53px -1px;
+}
+
+.yg_nav .all_fenlei .fenlei_nav > li:nth-child(3) i {
+  background-position: 0 -208px;
+}
+
+.yg_nav .all_fenlei .fenlei_nav > li:nth-child(3):hover i {
+  background-position: -53px -208px;
+}
+
+.yg_nav .all_fenlei .fenlei_nav > li:nth-child(4) i {
+  background-position: 0 -182px;
+}
+
+.yg_nav .all_fenlei .fenlei_nav > li:nth-child(4):hover i {
+  background-position: -53px -182px;
+}
+
+.yg_nav .all_fenlei .fenlei_nav > li:nth-child(5) i {
+  background-position: 0 -156px;
+}
+
+.yg_nav .all_fenlei .fenlei_nav > li:nth-child(5):hover i {
+  background-position: -53px -156px;
+}
+
+.yg_nav .all_fenlei .fenlei_nav > li:nth-child(6) i {
+  background-position: 0 -130px;
+}
+
+.yg_nav .all_fenlei .fenlei_nav > li:nth-child(6):hover i {
+  background-position: -53px -130px;
+}
+
+.yg_nav .fenlei_r li {
+  float: left;
+}
+
+.yg_nav .fenlei_r li a {
+  display: block;
+  height: 39px;
+  line-height: 39px;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 13px;
+}
+
+.yg_nav .fenlei_r li a:hover {
+  color: #e60012;
+}
+
+.yg_nav .fenlei_r li:nth-child(4) a {
+  color: #e60012;
+}
