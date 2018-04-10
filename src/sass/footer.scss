@@ -51,6 +51,153 @@
                     }
                 }
             }
+            .item_fenlei{
+                margin-top: 12px;
+                padding-bottom: 66px;
+                >li{
+                    float: left;
+                    width: 518px;
+                    height: 38px;
+                    line-height: 38px;
+                    margin-left: 36px;
+                    margin-right: 36px;
+                    border-bottom: 1px dashed #e8e8e8;
+                    >a{
+                        font-size: 13px;
+                        margin-right: 18px;
+                        &:first-child{
+                            margin-right: 26px;
+                            font-weight: bold;
+                        }
+                        &:last-child{
+                            margin-right: 0;
+                            float: right;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .yg_service{
+        border-top: 1px solid #ececec;
+        padding-top: 8px;
+        background: #f4f4f4;
+        padding-bottom: 10px;
+        .yg_fuwu{
+            padding: 7px 0 7px 85px;
+            border: 1px #ddd solid;
+            height: 48px;
+            line-height: 48px;
+            margin-bottom: 10px;
+            >li{
+                float: left;
+                margin-right: 84px;
+                margin-left: 20px;
+                line-height: 34px;
+                i{
+                    display: inline-block;
+                    width: 32px;
+                    height: 32px;
+                    background: url("../img/yg-ico.png") no-repeat;
+                    background-position: 0 -38px;
+                    margin-right: 10px;
+                    vertical-align: middle;
+                }
+                a{
+                    font-size: 17px;
+                    vertical-align: middle;
+                    em{
+                        color: #e60012;
+                    }
+                }
+            }
+        }
+        .yg_service_link{
+            padding-top: 5px;
+            >ul{
+                float: left;
+                >li{
+                    float: left;
+                    width: 150px;
+                    padding-left: 3px;
+                    padding-bottom: 5px;
+                    >p{
+                        height: 25px;
+                        line-height: 25px;
+                        font-weight: bold;
+                    }
+                    >a{
+                        display: block;
+                        line-height: 20px;
+                        vertical-align: middle;
+                        i{
+                            display: inline-block;
+                            width: 30px;
+                            height: 22px;
+                            background: url("../img/newbase.png") no-repeat -315px -28px;
+                            vertical-align: middle;
+                        }
+                    }
+                    >span{
+                        display: inline-block;
+                        font-size: 12px;
+                        line-height: 20px;
+                        em{
+                            color: #e60012;
+                        }
+                    }
+                }
+            }
+            .yg_app{
+                // width: 240px;
+                float: right;
+                padding-bottom: 5px;
+                padding-right: 24px;
+                a{
+                    display: block;
+                    text-align: center;
+                    &.footer_mobile{
+                        float: left;
+                    }
+                    &.footer_wechat{
+                        float: right;
+                        margin-left: 40px;
+                    }
+                }
+            }
+        }
+    }
+    .yg_prove{
+        background: #000;
+        border-bottom: 3px solid #1f1c09;
+        padding-bottom: 10px;
+        .footer_yg{
+            display: block;
+            float: left;
+            padding-top: 30px;
+        }
+        .yg_prove_r{
+            color: #fff;
+            p{
+                padding-right: 10px;
+                line-height: 25px;
+                text-align: right;
+                a{
+                    margin: 0 5px;
+                    color: #fff;
+                }
+                &.footer_jigou{
+                    padding-top: 5px;
+                    a{
+                        display: inline-block;
+                        float: right;
+                        img{
+                            width: 108px;
+                            height: 40px;
+                        }
+                    }
+                }
+            }
         }
     }
 }

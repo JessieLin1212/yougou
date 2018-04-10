@@ -59,3 +59,180 @@
 #pageFooter .yg_doagou .item_box .item_pinpai i.item_next {
   right: -46px;
 }
+
+#pageFooter .yg_doagou .item_box .item_fenlei {
+  margin-top: 12px;
+  padding-bottom: 66px;
+}
+
+#pageFooter .yg_doagou .item_box .item_fenlei > li {
+  float: left;
+  width: 518px;
+  height: 38px;
+  line-height: 38px;
+  margin-left: 36px;
+  margin-right: 36px;
+  border-bottom: 1px dashed #e8e8e8;
+}
+
+#pageFooter .yg_doagou .item_box .item_fenlei > li > a {
+  font-size: 13px;
+  margin-right: 18px;
+}
+
+#pageFooter .yg_doagou .item_box .item_fenlei > li > a:first-child {
+  margin-right: 26px;
+  font-weight: bold;
+}
+
+#pageFooter .yg_doagou .item_box .item_fenlei > li > a:last-child {
+  margin-right: 0;
+  float: right;
+}
+
+#pageFooter .yg_service {
+  border-top: 1px solid #ececec;
+  padding-top: 8px;
+  background: #f4f4f4;
+  padding-bottom: 10px;
+}
+
+#pageFooter .yg_service .yg_fuwu {
+  padding: 7px 0 7px 85px;
+  border: 1px #ddd solid;
+  height: 48px;
+  line-height: 48px;
+  margin-bottom: 10px;
+}
+
+#pageFooter .yg_service .yg_fuwu > li {
+  float: left;
+  margin-right: 84px;
+  margin-left: 20px;
+  line-height: 34px;
+}
+
+#pageFooter .yg_service .yg_fuwu > li i {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url("../img/yg-ico.png") no-repeat;
+  background-position: 0 -38px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+#pageFooter .yg_service .yg_fuwu > li a {
+  font-size: 17px;
+  vertical-align: middle;
+}
+
+#pageFooter .yg_service .yg_fuwu > li a em {
+  color: #e60012;
+}
+
+#pageFooter .yg_service .yg_service_link {
+  padding-top: 5px;
+}
+
+#pageFooter .yg_service .yg_service_link > ul {
+  float: left;
+}
+
+#pageFooter .yg_service .yg_service_link > ul > li {
+  float: left;
+  width: 150px;
+  padding-left: 3px;
+  padding-bottom: 5px;
+}
+
+#pageFooter .yg_service .yg_service_link > ul > li > p {
+  height: 25px;
+  line-height: 25px;
+  font-weight: bold;
+}
+
+#pageFooter .yg_service .yg_service_link > ul > li > a {
+  display: block;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
+#pageFooter .yg_service .yg_service_link > ul > li > a i {
+  display: inline-block;
+  width: 30px;
+  height: 22px;
+  background: url("../img/newbase.png") no-repeat -315px -28px;
+  vertical-align: middle;
+}
+
+#pageFooter .yg_service .yg_service_link > ul > li > span {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+#pageFooter .yg_service .yg_service_link > ul > li > span em {
+  color: #e60012;
+}
+
+#pageFooter .yg_service .yg_service_link .yg_app {
+  float: right;
+  padding-bottom: 5px;
+  padding-right: 24px;
+}
+
+#pageFooter .yg_service .yg_service_link .yg_app a {
+  display: block;
+  text-align: center;
+}
+
+#pageFooter .yg_service .yg_service_link .yg_app a.footer_mobile {
+  float: left;
+}
+
+#pageFooter .yg_service .yg_service_link .yg_app a.footer_wechat {
+  float: right;
+  margin-left: 40px;
+}
+
+#pageFooter .yg_prove {
+  background: #000;
+  border-bottom: 3px solid #1f1c09;
+  padding-bottom: 10px;
+}
+
+#pageFooter .yg_prove .footer_yg {
+  display: block;
+  float: left;
+  padding-top: 30px;
+}
+
+#pageFooter .yg_prove .yg_prove_r {
+  color: #fff;
+}
+
+#pageFooter .yg_prove .yg_prove_r p {
+  padding-right: 10px;
+  line-height: 25px;
+  text-align: right;
+}
+
+#pageFooter .yg_prove .yg_prove_r p a {
+  margin: 0 5px;
+  color: #fff;
+}
+
+#pageFooter .yg_prove .yg_prove_r p.footer_jigou {
+  padding-top: 5px;
+}
+
+#pageFooter .yg_prove .yg_prove_r p.footer_jigou a {
+  display: inline-block;
+  float: right;
+}
+
+#pageFooter .yg_prove .yg_prove_r p.footer_jigou a img {
+  width: 108px;
+  height: 40px;
+}
