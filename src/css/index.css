@@ -1,3 +1,7 @@
+body {
+  background: #F8F8F8;
+}
+
 #yg {
   background: #F8F8F8;
   padding-bottom: 30px;
@@ -297,4 +301,114 @@
   width: 186px;
   height: 215px;
   vertical-align: middle;
+}
+
+#yg .yg_sale {
+  padding-top: 30px;
+}
+
+#yg .yg_sale .yg_sale_t {
+  border-bottom: 3px #000 solid;
+  line-height: 34px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#yg .yg_sale .yg_sale_b {
+  padding-bottom: 8px;
+  border: 1px #d1d3d4 solid;
+  border-top: 0 none;
+  background: #fff;
+}
+
+#yg .yg_sale .yg_sale_b .sale_tab {
+  border-right: 1px #d1d3d4 solid;
+  float: left;
+  margin-right: 10px;
+}
+
+#yg .yg_sale .yg_sale_b .sale_tab > li {
+  border-bottom: 1px #d1d3d4 solid;
+}
+
+#yg .yg_sale .yg_sale_b .sale_tab > li a {
+  display: block;
+  width: 212px;
+  height: 40px;
+  line-height: 38px;
+  padding-left: 14px;
+  font-size: 14px;
+  background: #fff;
+}
+
+#yg .yg_sale .yg_sale_b .sale_tab > li a i {
+  float: right;
+  color: #fff;
+  font-size: 24px;
+  margin-top: 2px;
+}
+
+#yg .yg_sale .yg_sale_b .sale_tab > li a.tab_active {
+  background: #000;
+  color: #fff;
+}
+
+#yg .yg_sale .yg_sale_b .sale_tab > li:hover a {
+  background: #000;
+  color: #fff;
+}
+
+#yg .yg_sale .yg_sale_b .sale_goods {
+  float: left;
+  padding-top: 20px;
+}
+
+#yg .yg_sale .yg_sale_b .sale_goods > ul > li {
+  float: left;
+  width: 232px;
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+#yg .yg_sale .yg_sale_b .sale_goods > ul > li .img_box {
+  border: 1px #ddd solid;
+  text-align: center;
+}
+
+#yg .yg_sale .yg_sale_b .sale_goods > ul > li .img_box img {
+  width: 230px;
+  height: 240px;
+}
+
+#yg .yg_sale .yg_sale_b .sale_goods > ul > li .img_box p {
+  height: 16px;
+  line-height: 16px;
+  background: #f0a1a1;
+  color: #fff;
+  padding-left: 6px;
+  text-align: left;
+}
+
+#yg .yg_sale .yg_sale_b .sale_goods > ul > li .goods_jieshao {
+  padding: 5px 0 6px 6px;
+}
+
+#yg .yg_sale .yg_sale_b .sale_goods > ul > li .goods_jieshao .goods_title {
+  display: block;
+  height: 40px;
+}
+
+#yg .yg_sale .yg_sale_b .sale_goods > ul > li .goods_jieshao .goods_title:hover {
+  color: #e60012;
+}
+
+#yg .yg_sale .yg_sale_b .sale_goods > ul > li .goods_jieshao .price_box {
+  color: #e60012;
+  font-size: 16px;
+}
+
+#yg .yg_sale .yg_sale_b .sale_goods > ul > li .goods_jieshao .price_box > del {
+  color: #aaa;
+  margin-left: 8px;
+  font-size: 12px;
 }

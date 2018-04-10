@@ -1,4 +1,56 @@
 
 #pageFooter{
-    
+    .yg_doagou{
+        margin-top: 30px;
+        background: #fff;
+        margin-bottom: 10px;
+        h3{
+            border-bottom: 2px solid #808080;
+            padding-left: 8px;
+            line-height: 30px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .item_box{
+            border: 1px solid #eee;
+            border-top: 0 none;
+            padding-top: 18px;
+            .item_pinpai{
+                width: 1081px;
+                height: 245px;
+                background: #e8e8e8;
+                margin: 0 auto;
+                position: relative;
+                >a{
+                    display: block;
+                    width: 89px;
+                    height: 60px;
+                    float: left;
+                    color: #999;
+                    background: #fff;
+                    text-align: center;
+                    margin-left: 1px;
+                    margin-top: 1px;
+                    img{
+                        width: 85px;
+                        height: 40px;
+                        vertical-align: middle;
+                    }
+                }
+                i{
+                    position: absolute;
+                    display: block;
+                    font-size: 40px;
+                    cursor: pointer;
+                    top: 122px;
+                    &.item_prev{
+                        left: -46px;
+                    }
+                    &.item_next{
+                        right: -46px;
+                    }
+                }
+            }
+        }
+    }
 }
