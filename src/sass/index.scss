@@ -130,7 +130,7 @@
       .guan_top{
         border-bottom: 3px #000 solid;
         line-height: 32px;
-        font-size: 17px;
+        font-size: 19px;
         >a{
           font-weight: bold;
           color: #000;
@@ -189,6 +189,63 @@
               }
               &:first-child span{
                 border-right: 1px solid #E0E0E0;
+              }
+            }
+          }
+          .fenlei_yyt{
+            >a{
+              width: 66px;
+              span{
+                width: 66px;
+                border-right: 1px solid #E0E0E0;
+              }
+              &:last-child span{
+                border-right: 0 none;
+              }
+            }
+          }
+          .pinpai_zs_b{
+            >li{
+              float: left;
+              >a{
+                display: block;
+                text-align: center;
+                width: 100px;
+                height: 50px;
+                margin-top: 20px;
+                img{
+                  width: 85px;
+                  height: 40px;
+                  margin-top: 5px;
+                }
+              }
+            }
+          }
+        }
+        .img_show{
+          float: left;
+          border: 1px #ddd solid;
+          a{
+            display: block;
+            img{
+              width: 360px;
+              height: 430px;
+            }
+          }
+        }
+        .goods_show{
+          float: right;
+          >li{
+            border-bottom: 2px solid #9B9B9B;
+            overflow: hidden;
+            a{
+              display: block;
+              float: left;
+              text-align: center;
+              img{
+                width: 186px;
+                height: 215px;
+                vertical-align: middle;
               }
             }
           }

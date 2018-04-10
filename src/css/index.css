@@ -156,7 +156,7 @@
 #yg .guan_box .fenlei_guan .guan_top {
   border-bottom: 3px #000 solid;
   line-height: 32px;
-  font-size: 17px;
+  font-size: 19px;
 }
 
 #yg .guan_box .fenlei_guan .guan_top > a {
@@ -231,4 +231,70 @@
 
 #yg .guan_box .fenlei_guan .guan_b .pinpai_zs .pinpai_zs_t > a:first-child span {
   border-right: 1px solid #E0E0E0;
+}
+
+#yg .guan_box .fenlei_guan .guan_b .pinpai_zs .fenlei_yyt > a {
+  width: 66px;
+}
+
+#yg .guan_box .fenlei_guan .guan_b .pinpai_zs .fenlei_yyt > a span {
+  width: 66px;
+  border-right: 1px solid #E0E0E0;
+}
+
+#yg .guan_box .fenlei_guan .guan_b .pinpai_zs .fenlei_yyt > a:last-child span {
+  border-right: 0 none;
+}
+
+#yg .guan_box .fenlei_guan .guan_b .pinpai_zs .pinpai_zs_b > li {
+  float: left;
+}
+
+#yg .guan_box .fenlei_guan .guan_b .pinpai_zs .pinpai_zs_b > li > a {
+  display: block;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+#yg .guan_box .fenlei_guan .guan_b .pinpai_zs .pinpai_zs_b > li > a img {
+  width: 85px;
+  height: 40px;
+  margin-top: 5px;
+}
+
+#yg .guan_box .fenlei_guan .guan_b .img_show {
+  float: left;
+  border: 1px #ddd solid;
+}
+
+#yg .guan_box .fenlei_guan .guan_b .img_show a {
+  display: block;
+}
+
+#yg .guan_box .fenlei_guan .guan_b .img_show a img {
+  width: 360px;
+  height: 430px;
+}
+
+#yg .guan_box .fenlei_guan .guan_b .goods_show {
+  float: right;
+}
+
+#yg .guan_box .fenlei_guan .guan_b .goods_show > li {
+  border-bottom: 2px solid #9B9B9B;
+  overflow: hidden;
+}
+
+#yg .guan_box .fenlei_guan .guan_b .goods_show > li a {
+  display: block;
+  float: left;
+  text-align: center;
+}
+
+#yg .guan_box .fenlei_guan .guan_b .goods_show > li a img {
+  width: 186px;
+  height: 215px;
+  vertical-align: middle;
 }
