@@ -1,47 +1,199 @@
 
 #yg{
-    .banner{
-        width: 990px;
-        height: 480px;
-        position:relative;
-        overflow:hidden;
-        >ul{
-            position:absolute;
-            overflow:hidden;
-            z-index:-1;
-            >li{
-                float: left;
-                img{
-                    width: 990px;
-                    height: 480px;
-                    display: block;
-                }
-            }
+  background: #F8F8F8;
+  padding-bottom: 30px;
+  .banner{
+    width: 990px;
+    height: 480px;
+    position:relative;
+    overflow:hidden;
+    margin-left: 200px;
+    >ul{
+      position:absolute;
+      overflow:hidden;
+      z-index: 1;
+      >li{
+        float: left;
+        img{
+          width: 990px;
+          height: 480px;
+          display: block;
         }
-        .page{
-          position:absolute;
-          left:50%;
-          margin-left: -54px;
-          bottom:0;
-          padding:10px;
-          z-index:-1;
-          span{
-            display:inline-block;
-            margin:0 5px;
-            width:12px;
-            height:12px;
-            line-height:12px;
-            background-color:rgba(0,0,0,.6);
-            border-radius: 50%;
-            cursor: pointer;
-            font-size: 12px;
-            color: rgba(0,0,0,0);
-            text-align: center;
-            &.active{
-              background-color: rgba(255,0,0,.9);
-              color: rgba(0,0,0,0);
+      }
+    }
+    .page{
+      position:absolute;
+      left:70%;
+      bottom:0;
+      padding:10px;
+      z-index: 2;
+      span{
+        display:inline-block;
+        margin:0 5px;
+        width:18px;
+        height:18px;
+        line-height:18px;
+        background-color:rgba(0,0,0,.8);
+        border-radius: 50%;
+        font-size: 12px;
+        color: #fff;
+        text-align: center;
+        cursor: pointer;
+        &.active{
+          background-color: rgba(255,0,0,.9);
+          color: #fff;
+        }
+      }
+    }
+  }
+  .rm_pinpai{
+    padding-top: 40px;
+    .rm_top{
+      border-bottom: 3px #000 solid;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 34px;
+      span{
+        font-size: 14px;
+        font-weight: normal;
+        color: #939598;
+        margin-left: 6px;
+      }
+      a{
+        float: right;
+        font-weight: normal;
+        font-size: 17px;
+      }
+    }
+    .rm_b{
+      border: 1px #d1d3d4 solid;
+      padding: 24px 0 24px 24px;
+      background: #fff;
+      .rm_content{
+        li{
+          float: left;
+          margin-right: 22px;
+          a{
+            display: block;
+            img{
+              width: 267px;
+              height: 321px;
             }
           }
         }
+      }
+      .rm_tab{
+        padding-top: 40px;
+        position: relative;
+        .pinpai_show{
+          width: 95%;
+          margin-left: 15px;
+          >ul{
+            overflow: hidden;
+            li{
+              float: left;
+              a{
+                display: block;
+                width: 110px;
+                height: 50px;
+                margin-top: 5px;
+                text-align: center;
+                background: #fff;
+                img{
+                  width: 85px;
+                  height: 40px;
+                  margin-top: 5px;
+                }
+              }
+            }
+          }
+        }
+        >p{
+          width: 19px;
+          height: 58px;
+          position: absolute;
+          cursor: pointer;
+          background: url("../img/brand_arrow.png") 0 -127px no-repeat;
+          top: 70px;
+          &.arrw_r{
+            background-position: -41px -127px;
+            right: 22px;
+          }
+        }
+      }
     }
+  }
+  .guan_box{
+    background: #F8F8F8;
+    .fenlei_guan{
+      padding-top: 30px;
+      .guan_top{
+        border-bottom: 3px #000 solid;
+        line-height: 32px;
+        font-size: 17px;
+        >a{
+          font-weight: bold;
+          color: #000;
+          float: left;
+          span{
+            font-size: 15px;
+            margin-left: 6px;
+          }
+        }
+        >p{
+          width: 116px;
+          height: 32px;
+          line-height: 34px;
+          text-align: center;
+          float: right;
+          background: #000;
+          >a{
+            color: #fff;
+            font-size: 15px;
+          }
+        }
+        a:hover{
+          color: #C81623;
+        }
+        a:hover span{
+          color: #000;
+        }
+      }
+      .guan_b{
+        padding: 22px 24px 22px 12px;
+        border: 1px #d1d3d4 solid;
+        background: #fff;
+        .pinpai_zs{
+          float: left;
+          width: 212px;
+          padding-right: 12px;
+          .pinpai_zs_t{
+            margin-bottom: 8px;
+            >a{
+              display: inline-block;
+              width: 100px;
+              height: 67px;
+              line-height: 67px;
+              background: #000;
+              text-align: center;
+              color: #fff;
+              float: left;
+              font-weight: bold;
+              font-size: 15px;
+              padding-top: 18px;
+              >span{
+                display: block;
+                width: 100px;
+                height: 31px;
+                line-height: 31px;
+              }
+              &:first-child span{
+                border-right: 1px solid #E0E0E0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

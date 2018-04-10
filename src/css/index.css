@@ -1,14 +1,20 @@
+#yg {
+  background: #F8F8F8;
+  padding-bottom: 30px;
+}
+
 #yg .banner {
   width: 990px;
   height: 480px;
   position: relative;
   overflow: hidden;
+  margin-left: 200px;
 }
 
 #yg .banner > ul {
   position: absolute;
   overflow: hidden;
-  z-index: -1;
+  z-index: 1;
 }
 
 #yg .banner > ul > li {
@@ -23,28 +29,206 @@
 
 #yg .banner .page {
   position: absolute;
-  left: 50%;
-  margin-left: -54px;
+  left: 70%;
   bottom: 0;
   padding: 10px;
-  z-index: -1;
+  z-index: 2;
 }
 
 #yg .banner .page span {
   display: inline-block;
   margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  line-height: 12px;
-  background-color: rgba(0, 0, 0, 0.6);
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  background-color: rgba(0, 0, 0, 0.8);
   border-radius: 50%;
-  cursor: pointer;
   font-size: 12px;
-  color: transparent;
+  color: #fff;
   text-align: center;
+  cursor: pointer;
 }
 
 #yg .banner .page span.active {
   background-color: rgba(255, 0, 0, 0.9);
-  color: transparent;
+  color: #fff;
+}
+
+#yg .rm_pinpai {
+  padding-top: 40px;
+}
+
+#yg .rm_pinpai .rm_top {
+  border-bottom: 3px #000 solid;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 34px;
+}
+
+#yg .rm_pinpai .rm_top span {
+  font-size: 14px;
+  font-weight: normal;
+  color: #939598;
+  margin-left: 6px;
+}
+
+#yg .rm_pinpai .rm_top a {
+  float: right;
+  font-weight: normal;
+  font-size: 17px;
+}
+
+#yg .rm_pinpai .rm_b {
+  border: 1px #d1d3d4 solid;
+  padding: 24px 0 24px 24px;
+  background: #fff;
+}
+
+#yg .rm_pinpai .rm_b .rm_content li {
+  float: left;
+  margin-right: 22px;
+}
+
+#yg .rm_pinpai .rm_b .rm_content li a {
+  display: block;
+}
+
+#yg .rm_pinpai .rm_b .rm_content li a img {
+  width: 267px;
+  height: 321px;
+}
+
+#yg .rm_pinpai .rm_b .rm_tab {
+  padding-top: 40px;
+  position: relative;
+}
+
+#yg .rm_pinpai .rm_b .rm_tab .pinpai_show {
+  width: 95%;
+  margin-left: 15px;
+}
+
+#yg .rm_pinpai .rm_b .rm_tab .pinpai_show > ul {
+  overflow: hidden;
+}
+
+#yg .rm_pinpai .rm_b .rm_tab .pinpai_show > ul li {
+  float: left;
+}
+
+#yg .rm_pinpai .rm_b .rm_tab .pinpai_show > ul li a {
+  display: block;
+  width: 110px;
+  height: 50px;
+  margin-top: 5px;
+  text-align: center;
+  background: #fff;
+}
+
+#yg .rm_pinpai .rm_b .rm_tab .pinpai_show > ul li a img {
+  width: 85px;
+  height: 40px;
+  margin-top: 5px;
+}
+
+#yg .rm_pinpai .rm_b .rm_tab > p {
+  width: 19px;
+  height: 58px;
+  position: absolute;
+  cursor: pointer;
+  background: url("../img/brand_arrow.png") 0 -127px no-repeat;
+  top: 70px;
+}
+
+#yg .rm_pinpai .rm_b .rm_tab > p.arrw_r {
+  background-position: -41px -127px;
+  right: 22px;
+}
+
+#yg .guan_box {
+  background: #F8F8F8;
+}
+
+#yg .guan_box .fenlei_guan {
+  padding-top: 30px;
+}
+
+#yg .guan_box .fenlei_guan .guan_top {
+  border-bottom: 3px #000 solid;
+  line-height: 32px;
+  font-size: 17px;
+}
+
+#yg .guan_box .fenlei_guan .guan_top > a {
+  font-weight: bold;
+  color: #000;
+  float: left;
+}
+
+#yg .guan_box .fenlei_guan .guan_top > a span {
+  font-size: 15px;
+  margin-left: 6px;
+}
+
+#yg .guan_box .fenlei_guan .guan_top > p {
+  width: 116px;
+  height: 32px;
+  line-height: 34px;
+  text-align: center;
+  float: right;
+  background: #000;
+}
+
+#yg .guan_box .fenlei_guan .guan_top > p > a {
+  color: #fff;
+  font-size: 15px;
+}
+
+#yg .guan_box .fenlei_guan .guan_top a:hover {
+  color: #C81623;
+}
+
+#yg .guan_box .fenlei_guan .guan_top a:hover span {
+  color: #000;
+}
+
+#yg .guan_box .fenlei_guan .guan_b {
+  padding: 22px 24px 22px 12px;
+  border: 1px #d1d3d4 solid;
+  background: #fff;
+}
+
+#yg .guan_box .fenlei_guan .guan_b .pinpai_zs {
+  float: left;
+  width: 212px;
+  padding-right: 12px;
+}
+
+#yg .guan_box .fenlei_guan .guan_b .pinpai_zs .pinpai_zs_t {
+  margin-bottom: 8px;
+}
+
+#yg .guan_box .fenlei_guan .guan_b .pinpai_zs .pinpai_zs_t > a {
+  display: inline-block;
+  width: 100px;
+  height: 67px;
+  line-height: 67px;
+  background: #000;
+  text-align: center;
+  color: #fff;
+  float: left;
+  font-weight: bold;
+  font-size: 15px;
+  padding-top: 18px;
+}
+
+#yg .guan_box .fenlei_guan .guan_b .pinpai_zs .pinpai_zs_t > a > span {
+  display: block;
+  width: 100px;
+  height: 31px;
+  line-height: 31px;
+}
+
+#yg .guan_box .fenlei_guan .guan_b .pinpai_zs .pinpai_zs_t > a:first-child span {
+  border-right: 1px solid #E0E0E0;
 }

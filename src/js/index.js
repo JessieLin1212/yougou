@@ -78,7 +78,7 @@ require(['config'],function(){
         });
 
         // 事件委托
-        banner.addEventListener('click',e=>{
+        banner.addEventListener('mouseover',e=>{
             if(e.target.parentNode.classList.contains('page')){
                 idx = e.target.innerText-1;
                 show();
