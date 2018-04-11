@@ -92,16 +92,18 @@
     </header>
 
     <div id="register">
+
         <div class="h_logo">
             <div class="container clearfix">
                 <h1>
-                    <a href="">
+                    <a href="../index.html">
                         <img src="../img/h_logo.png" height="32" width="151" alt="" />
                     </a>
                 </h1>
                 <p>新用户注册</p>
             </div>
         </div>
+
         <form action="" class="form_box clearfix">
             <div class="container clearfix">
                 <div class="reg_box">
@@ -115,25 +117,25 @@
                     </ul>
                     <ul class="reg_form">
                         <li>
-                            <div class="reg_phone">
+                            <div class="reg_content reg_phone">
                                 <label for="reg_phone">
                                     手机号
                                     <i class="iconfont icon-sanjiaoxing-down"></i>
                                 </label>
                                 <input id="reg_phone" name="reg_phone" type="phone" placeholder="请输入您的手机号码" />
                             </div>
-                            <p class="phone_hint">请输入手机号码</p>
+                            <p class="phone_hint hint_ok">请输入手机号码</p>
                         </li>
                         <li>
-                            <div class="reg_code">
+                            <div class="reg_content reg_code">
                                 <label for="reg_code">验证码</label>
                                 <input id="reg_code" name="reg_code" type="text" />
                             </div>
-                            <span class="code_num">9776</span>
-                            <p class="code_hint">请输入验证码</p>
+                            <span class="code_txt">32k8</span>
+                            <p class="code_hint hint_no">请输入验证码</p>
                         </li>
                         <li>
-                            <div class="reg_message">
+                            <div class="reg_content reg_message">
                                 <label for="reg_message">短信验证码</label>
                                 <input id="reg_message" name="reg_message" type="text" />
                             </div>
@@ -141,23 +143,39 @@
                             <p class="message_hint">请输入短信验证码</p>
                         </li>
                         <li>
-                            <div class="reg_pwd">
+                            <div class="reg_content reg_pwd">
                                 <label for="reg_pwd">密码</label>
                                 <input id="reg_pwd" name="reg_pwd" type="password" placeholder="字母、数字、符号均可，6-25个字符以内" />
                             </div>
                             <p class="pwd_hint">请输入密码</p>
                         </li>
                         <li>
-                            <div class="reg_ag_pwd">
+                            <div class="reg_content reg_ag_pwd">
                                 <label for="reg_ag_pwd">确认密码</label>
                                 <input id="reg_ag_pwd" name="reg_ag_pwd" type="password" />
                             </div>
                             <p class="pwd_ag_hint">请再次确认密码</p>
                         </li>
+                        <p class="reg_check">
+                            <input type="checkbox" checked name="reg_agree" id="reg_agree" />
+                            <label for="reg_agree">我已阅读并同意</label>
+                            <a href="">《优购会员注册协议》</a>
+                        </p>
+                        <input id="reg_btn" type="submit" value="确认并注册" />
                     </ul>
                 </div>
             </div>
         </form>
+
+        <div class="reg_footer">
+            <p>
+                Copyright © 2011-2014 Yougou Technology Co., Ltd.  
+                <a href="">粤ICP备09070608号-4</a>
+                 增值电信业务经营许可证：
+                 <a href="">粤 B2-20090203</a>
+            </p>
+        </div>
+
     </div>
     
     <script src="../js/require.js" data-main="../js/register" type="text/javascript"></script>

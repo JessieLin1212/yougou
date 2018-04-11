@@ -1,0 +1,198 @@
+.container {
+  width: 990px;
+}
+
+#pageHeader {
+  background: #F4F4F6;
+}
+
+#login .h_logo {
+  padding: 13px 0;
+  border-bottom: 1px solid #dcdbde;
+  background: #fff;
+}
+
+#login .h_logo h1 {
+  float: left;
+  padding: 5px 30px 5px 0;
+  border-right: 1px solid #e6e6e6;
+  margin-right: 30px;
+}
+
+#login .h_logo h1 a {
+  display: inline-block;
+}
+
+#login .h_logo p {
+  float: left;
+  font-size: 19px;
+  line-height: 43px;
+}
+
+#login .form_box {
+  width: 100%;
+  height: 553px;
+  background: url("../img/reg_bg.jpg") no-repeat top center;
+}
+
+#login .form_box .login_box {
+  float: right;
+  z-index: 10;
+  margin-top: 50px;
+  background: #fff;
+  padding: 24px 15px 0 15px;
+}
+
+#login .form_box .login_box .login_type > li {
+  float: left;
+  background: #f3f3f3;
+}
+
+#login .form_box .login_box .login_type > li a {
+  display: inline-block;
+  width: 174px;
+  height: 40px;
+  line-height: 40px;
+  color: #333;
+  text-align: center;
+}
+
+#login .form_box .login_box .login_type > li:first-child {
+  background: #333;
+}
+
+#login .form_box .login_box .login_type > li:first-child a {
+  color: #fff;
+}
+
+#login .form_box .login_box .login_type > li:last-child:hover a {
+  color: #e60012;
+}
+
+#login .form_box .login_box .login_form {
+  padding: 30px 18px 38px;
+}
+
+#login .form_box .login_box .login_form li {
+  width: 313px;
+  color: #000;
+  text-align: left;
+  overflow: hidden;
+}
+
+#login .form_box .login_box .login_form li .login_content {
+  width: 313px;
+  height: 38px;
+  border: 1px solid #e3e2e2;
+  padding-left: 10px;
+  float: left;
+}
+
+#login .form_box .login_box .login_form li .login_content label {
+  display: inline-block;
+  width: 30px;
+  height: 36px;
+  line-height: 36px;
+  position: relative;
+}
+
+#login .form_box .login_box .login_form li .login_content label i {
+  display: inline-block;
+  font-size: 26px;
+  color: #9A9A9A;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#login .form_box .login_box .login_form li .login_content input {
+  width: 235px;
+  height: 36px;
+  line-height: 36px;
+  float: right;
+  font-size: 13px;
+  padding-left: 6px;
+}
+
+#login .form_box .login_box .login_form li .login_error {
+  border: 1px solid #e60012;
+}
+
+#login .form_box .login_box .login_form li > p {
+  height: 28px;
+  line-height: 28px;
+  padding-left: 5px;
+  float: left;
+}
+
+#login .form_box .login_box .login_form li > p.hint_ok {
+  color: #84CE17;
+}
+
+#login .form_box .login_box .login_form li > p.hint_no {
+  color: #e60012;
+}
+
+#login .form_box .login_box .login_form > p {
+  width: 313px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  color: #999;
+}
+
+#login .form_box .login_box .login_form > p > a {
+  float: right;
+  text-decoration: underline;
+}
+
+#login .form_box .login_box .login_form > p.login_link {
+  height: 32px;
+  line-height: 32px;
+  margin-top: 15px;
+  color: #e1e1e1;
+  margin-bottom: 30px;
+}
+
+#login .form_box .login_box .login_form > p.login_link a {
+  display: inline-block;
+  width: 36px;
+  height: 32px;
+  background: url("../img/login_icon.png") no-repeat -37px -21px;
+  margin: 0 8px;
+  float: none;
+  vertical-align: middle;
+}
+
+#login .form_box .login_box .login_form #login_btn {
+  width: 313px;
+  height: 40px;
+  line-height: 40px;
+  background: #e1373a;
+  color: #fff;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#login .login_footer {
+  margin-top: 20px;
+  color: #AAA;
+}
+
+#login .login_footer > p {
+  line-height: 20px;
+  text-align: center;
+}
+
+#login .login_footer > p a {
+  padding: 0 20px;
+  color: #AAA;
+}
+
+#login .login_footer > p a:hover {
+  color: #e60012;
+}

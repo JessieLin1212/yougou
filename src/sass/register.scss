@@ -31,8 +31,6 @@
         background: url("../img/reg_bg.jpg") no-repeat top center;
         .reg_box{
             float: right;
-            // width: 378px;
-            height: 630px;
             z-index: 10;
             margin-top: 12px;
             background: #fff;
@@ -66,9 +64,133 @@
             .reg_form{
                 padding: 30px 18px 38px;
                 li{
-                    font-size: 14px;
+                    width: 313px;
                     color: #000;
-                    
+                    text-align: left;
+                    overflow: hidden;
+                    .reg_content{
+                        width: 313px;
+                        border: 1px solid #e3e2e2;
+                        padding-left: 10px;
+                        float: left;
+                        label{
+                            display: inline-block;
+                            height: 36px;
+                            line-height: 36px;
+                            position: relative;
+                            i{
+                                display: inline-block;
+                                font-size: 12px;
+                                color: #9A9A9A;
+                                position: absolute;
+                                top: 0px;
+                                right: -20px;
+                            }
+                        }
+                        input{
+                            width: 235px;
+                            height: 36px;
+                            line-height: 36px;
+                            float: right;
+                            font-size: 13px;
+                            padding-left: 6px;
+                        }
+                        #reg_pwd{
+                            width: 255px;
+                        }
+                    }
+                    .reg_error{
+                        border: 1px solid rgb(230, 0, 18);
+                    }
+                    >p{
+                        height: 28px;
+                        line-height: 28px;
+                        padding-left: 5px;
+                        float: left;
+                        &.hint_ok{
+                            color: #84CE17;
+                        }
+                        &.hint_no{
+                            color: #e60012;
+                        }
+                    }
+                    .reg_code{
+                        width: 200px;
+                        #reg_code{
+                            width: 128px;
+                        }
+                    }
+                    span{
+                        display: inline-block;
+                        height: 38px;
+                        line-height: 38px;
+                        float: right;
+                        text-align: center;
+                        cursor: pointer;
+                    }
+                    .code_txt{
+                       width: 90px;
+                       color: #193CAA;
+                       font-size: 22px;
+                       font-weight: bold;
+                       border: 1px solid #e3e2e2;
+                       letter-spacing: 5px;
+                       text-align: center;
+                    }
+                    .reg_message{
+                        width: 235px;
+                        #reg_message{
+                            width: 155px;
+                        }
+                    }
+                    .message_num{
+                        width: 73px;
+                        background: #323232;
+                        color: #fff;
+                        &:hover{
+                            background: #E1373A;
+                        }
+                    }
+                }
+                >p{
+                    width: 313px;
+                    height: 22px;
+                    line-height: 22px;
+                    text-align: center;
+                    label{
+                        padding-left: 6px;
+                    }
+                    a{
+                        color: #e60012;
+                    }
+                }
+                #reg_btn{
+                    width: 309px;
+                    height: 40px;
+                    line-height: 40px;
+                    background: #e1373a;
+                    color: #fff;
+                    text-align: center;
+                    margin: 0 auto;
+                    margin-top: 5px;
+                    font-size: 16px;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .reg_footer{
+        margin-top: 20px;
+        color: #AAA;
+        >p{
+            line-height: 20px;
+            text-align: center;
+            a{
+                padding: 0 20px;
+                color: #AAA;
+                &:hover{
+                    color: #e60012;
                 }
             }
         }
