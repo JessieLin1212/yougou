@@ -1,4 +1,15 @@
 
+.yg_nav{
+    .all_fenlei{
+        .fenlei_nav{
+            display: none;
+        }
+        &:hover .fenlei_nav{
+            display: block;
+        }
+    }
+}
+
 #details{
     
 }

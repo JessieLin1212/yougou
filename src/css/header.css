@@ -265,7 +265,12 @@
 }
 
 .yg_nav .all_fenlei {
+  width: 200px;
+  float: left;
+  height: 42px;
+  margin-bottom: -3px;
   position: relative;
+  background: #000;
 }
 
 .yg_nav .all_fenlei h3 a {
@@ -427,6 +432,11 @@
 
 .yg_nav .all_fenlei .fenlei_nav > li:nth-child(6):hover i {
   background-position: -53px -130px;
+}
+
+.yg_nav .fenlei_r {
+  width: 990px;
+  float: left;
 }
 
 .yg_nav .fenlei_r li {

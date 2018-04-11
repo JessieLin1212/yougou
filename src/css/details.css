@@ -1,0 +1,7 @@
+.yg_nav .all_fenlei .fenlei_nav {
+  display: none;
+}
+
+.yg_nav .all_fenlei:hover .fenlei_nav {
+  display: block;
+}
