@@ -34,7 +34,7 @@
             }
             
         }else{
-
+            // 验证用户名可注册
             echo "success";
 
         }

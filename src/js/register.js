@@ -80,23 +80,23 @@ require(['config'],function(){
         })
 
         // 验证验证码
-        // $reg_code.on('blur',function(){
-        //     let $code = $reg_code.val();
+        $reg_code.on('blur',function(){
+            let $code = $reg_code.val();
 
-        //     if($code == ''){
-        //         $code_hint.removeClass('hint_ok');
-        //         $code_hint.addClass('hint_no');
-        //         $code_hint.html("请输入验证码");
-        //     }else if($code != $code_txt.text()){
-        //         $code_hint.removeClass('hint_ok');
-        //         $code_hint.addClass('hint_no');
-        //         $code_hint.html("验证码错误");
-        //     }else if($code == $code_txt.text()){
-        //         $code_hint.removeClass('hint_no');
-        //         $code_hint.addClass('hint_ok');
-        //         $code_hint.html("验证码正确");
-        //     };
-        // })
+            if($code == ''){
+                $code_hint.removeClass('hint_ok');
+                $code_hint.addClass('hint_no');
+                $code_hint.html("请输入验证码");
+            }else if($code != $code_txt.text()){
+                $code_hint.removeClass('hint_ok');
+                $code_hint.addClass('hint_no');
+                $code_hint.html("验证码错误");
+            }else if($code == $code_txt.text()){
+                $code_hint.removeClass('hint_no');
+                $code_hint.addClass('hint_ok');
+                $code_hint.html("验证码正确");
+            };
+        })
 
         // 验证密码
         $reg_pwd.on('blur',function(){
@@ -114,29 +114,51 @@ require(['config'],function(){
         })
 
         // 确认密码
-        // $reg_ag_pwd.on('blur',function(){
-        //     // console.log(888);
+        $reg_ag_pwd.on('blur',function(){
+            // console.log(888);
 
-        //     let $password = $reg_pwd.val();
-        //     let $ag_pwd = $reg_ag_pwd.val();
-        //     if($password == $ag_pwd && $password != ''){
-        //         $pwd_ag_hint.removeClass('hint_no');
-        //         $pwd_ag_hint.addClass('hint_ok');
-        //         $pwd_ag_hint.html("密码一致");
+            let $password = $reg_pwd.val();
+            let $ag_pwd = $reg_ag_pwd.val();
+            if($password == $ag_pwd && $password != ''){
+                $pwd_ag_hint.removeClass('hint_no');
+                $pwd_ag_hint.addClass('hint_ok');
+                $pwd_ag_hint.html("密码一致");
 
-        //     }else if($ag_pwd != $password){
-        //         $pwd_ag_hint.addClass('hint_no');
-        //         $pwd_ag_hint.html("两次输入密码不一致");
-        //     }
-        // })
+            }else if($ag_pwd != $password){
+                $pwd_ag_hint.addClass('hint_no');
+                $pwd_ag_hint.html("两次输入密码不一致");
+            }
+        })
 
         // 注册
         $('#reg_btn').on('click',function(){
-            console.log(666);
+            
             let $username = $reg_phone.val();
+            let $code = $reg_code.val();
             let $password = $reg_pwd.val();
-            console.log($password);
-            if(!$reg_hint.hasClass('hint_no')){
+            let $ag_password = $reg_ag_pwd.val();
+            // console.log($username);
+            // console.log($password);
+            if($username == '' && $code == '' && $password == '' && $ag_password == ''){
+                // console.log(666);    
+                
+                $phone_hint.removeClass('hint_ok');
+                $phone_hint.addClass('hint_no');
+                $phone_hint.html("请输入手机号码");
+
+                $code_hint.removeClass('hint_ok');
+                $code_hint.addClass('hint_no');
+                $code_hint.html("请输入验证码");
+
+                $pwd_hint.removeClass('hint_ok');
+                $pwd_hint.addClass('hint_no');
+                $pwd_hint.html("请输入密码格");
+
+                $pwd_ag_hint.removeClass('hint_ok');
+                $pwd_ag_hint.addClass('hint_no');
+                $pwd_ag_hint.html("请输入确认密码");
+
+            }else if(!$reg_hint.hasClass('hint_no')){
                 $.ajax({
                     url:'../api/reg.php',
                     data:{
@@ -147,8 +169,8 @@ require(['config'],function(){
                     success:function(data){
                         console.log(data);
                         if(data == 'ok'){
-                            alert('注册成功！');
-                            // window.location.href="../html/login.html";
+                            // alert('注册成功！');
+                            window.location.href="../html/login.html";
                         }
                     }
                 })
