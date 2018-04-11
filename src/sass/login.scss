@@ -98,7 +98,8 @@
                     .login_error{
                         border: 1px solid rgb(230, 0, 18);
                     }
-                    >p{
+                    .login_hint{
+                        width: 300px;
                         height: 28px;
                         line-height: 28px;
                         padding-left: 5px;

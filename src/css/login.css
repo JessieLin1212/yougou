@@ -118,18 +118,19 @@
   border: 1px solid #e60012;
 }
 
-#login .form_box .login_box .login_form li > p {
+#login .form_box .login_box .login_form li .login_hint {
+  width: 300px;
   height: 28px;
   line-height: 28px;
   padding-left: 5px;
   float: left;
 }
 
-#login .form_box .login_box .login_form li > p.hint_ok {
+#login .form_box .login_box .login_form li .login_hint.hint_ok {
   color: #84CE17;
 }
 
-#login .form_box .login_box .login_form li > p.hint_no {
+#login .form_box .login_box .login_form li .login_hint.hint_no {
   color: #e60012;
 }
 
