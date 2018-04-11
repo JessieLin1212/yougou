@@ -139,26 +139,32 @@ require(['config'],function(){
             let $ag_password = $reg_ag_pwd.val();
             // console.log($username);
             // console.log($password);
-            if($username == '' && $code == '' && $password == '' && $ag_password == ''){
-                // console.log(666);    
-                
+
+            if($username == ''){
                 $phone_hint.removeClass('hint_ok');
                 $phone_hint.addClass('hint_no');
                 $phone_hint.html("请输入手机号码");
+            };
 
+            if($code == ''){
                 $code_hint.removeClass('hint_ok');
                 $code_hint.addClass('hint_no');
                 $code_hint.html("请输入验证码");
+            };
 
+            if($password == ''){
                 $pwd_hint.removeClass('hint_ok');
                 $pwd_hint.addClass('hint_no');
-                $pwd_hint.html("请输入密码格");
-
+                $pwd_hint.html("请输入密码");
+            };
+            
+            if($ag_password == ''){
                 $pwd_ag_hint.removeClass('hint_ok');
                 $pwd_ag_hint.addClass('hint_no');
                 $pwd_ag_hint.html("请输入确认密码");
+            };
 
-            }else if(!$reg_hint.hasClass('hint_no')){
+            if(!$reg_hint.hasClass('hint_no')){
                 $.ajax({
                     url:'../api/reg.php',
                     data:{
