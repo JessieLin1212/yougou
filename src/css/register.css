@@ -1,0 +1,86 @@
+.container {
+  width: 990px;
+}
+
+#pageHeader {
+  background: #F4F4F6;
+}
+
+#register .h_logo {
+  padding: 13px 0;
+  border-bottom: 1px solid #dcdbde;
+  background: #fff;
+}
+
+#register .h_logo h1 {
+  float: left;
+  padding: 5px 30px 5px 0;
+  border-right: 1px solid #e6e6e6;
+  margin-right: 30px;
+}
+
+#register .h_logo h1 a {
+  display: inline-block;
+}
+
+#register .h_logo p {
+  float: left;
+  font-size: 19px;
+  line-height: 43px;
+}
+
+#register .form_box {
+  width: 100%;
+  height: 553px;
+  background: url("../img/reg_bg.jpg") no-repeat top center;
+}
+
+#register .form_box .reg_box {
+  float: right;
+  height: 630px;
+  z-index: 10;
+  margin-top: 12px;
+  background: #fff;
+  padding: 24px 15px 0 15px;
+}
+
+#register .form_box .reg_box .reg_type {
+  border-bottom: 1px solid #f3f3f3;
+}
+
+#register .form_box .reg_box .reg_type > li {
+  float: left;
+  background: #333;
+}
+
+#register .form_box .reg_box .reg_type > li a {
+  display: inline-block;
+  width: 123px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+}
+
+#register .form_box .reg_box .reg_type > li:first-child {
+  background: #f3f3f3;
+  margin-left: 53px;
+  margin-right: 5px;
+}
+
+#register .form_box .reg_box .reg_type > li:first-child a {
+  color: #333;
+}
+
+#register .form_box .reg_box .reg_type > li:first-child:hover a {
+  color: #e60012;
+}
+
+#register .form_box .reg_box .reg_form {
+  padding: 30px 18px 38px;
+}
+
+#register .form_box .reg_box .reg_form li {
+  font-size: 14px;
+  color: #000;
+}
