@@ -5,3 +5,192 @@
 .yg_nav .all_fenlei:hover .fenlei_nav {
   display: block;
 }
+
+#list .filter_box {
+  margin-top: 10px;
+}
+
+#list .filter_box .filter_box_t {
+  margin-bottom: 10px;
+}
+
+#list .filter_box .filter_box_t > span, #list .filter_box .filter_box_t a {
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  margin-bottom: 3px;
+  float: left;
+}
+
+#list .filter_box .filter_box_t .fenge {
+  font-size: 14px;
+}
+
+#list .filter_box .filter_box_t .list_fenlei {
+  float: left;
+  position: relative;
+  cursor: pointer;
+  z-index: 2;
+}
+
+#list .filter_box .filter_box_t .list_fenlei > a {
+  border: 1px solid #fff;
+  padding: 0 20px 0 10px;
+  position: relative;
+  z-index: 2;
+}
+
+#list .filter_box .filter_box_t .list_fenlei > a i {
+  position: absolute;
+  top: 1px;
+  right: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #666;
+}
+
+#list .filter_box .filter_box_t .list_fenlei > a i.icon_up {
+  display: none;
+}
+
+#list .filter_box .filter_box_t .list_fenlei > ul {
+  display: none;
+  width: 107px;
+  height: 220px;
+  padding: 15px;
+  position: absolute;
+  top: 19px;
+  background: #fff;
+  border: 1px solid #ccc;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 1;
+}
+
+#list .filter_box .filter_box_t .list_fenlei > ul > li {
+  height: 26px;
+  line-height: 26px;
+}
+
+#list .filter_box .filter_box_t .list_fenlei:hover {
+  z-index: 9;
+}
+
+#list .filter_box .filter_box_t .list_fenlei:hover > a {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-bottom: 0 none;
+}
+
+#list .filter_box .filter_box_t .list_fenlei:hover > a .icon_up {
+  display: block;
+}
+
+#list .filter_box .filter_box_t .list_fenlei:hover > a .icon_down {
+  display: none;
+}
+
+#list .filter_box .filter_box_t .list_fenlei:hover > ul {
+  display: block;
+}
+
+#list .filter_box .filter_box_b {
+  border: 1px solid #e3e3e3;
+}
+
+#list .filter_box .filter_box_b > li {
+  height: 34px;
+  line-height: 34px;
+  border-bottom: 1px dotted #ccc;
+  overflow: hidden;
+  position: relative;
+}
+
+#list .filter_box .filter_box_b > li > p {
+  width: 98px;
+  height: 33px;
+  line-height: 33px;
+  float: left;
+  padding-top: 5px;
+  padding-right: 18px;
+  text-align: right;
+  background: #F6F6F6;
+  color: #999;
+}
+
+#list .filter_box .filter_box_b > li > ul {
+  background: #fff;
+  float: left;
+  padding: 4px 0 4px 13px;
+}
+
+#list .filter_box .filter_box_b > li > ul > li {
+  float: left;
+  height: 25px;
+  line-height: 26px;
+  padding-right: 5px;
+  text-align: left;
+}
+
+#list .filter_box .filter_box_b > li > ul > li a {
+  display: inline-block;
+  width: 145px;
+  padding-left: 13px;
+  height: 25px;
+  line-height: 26px;
+}
+
+#list .filter_box .filter_box_b > li > ul > li a em {
+  color: #AAA;
+}
+
+#list .filter_box .filter_box_b > li:first-child {
+  border-bottom-style: solid;
+  height: 68px;
+  line-height: 68px;
+}
+
+#list .filter_box .filter_box_b > li:first-child > p {
+  height: 67px;
+  line-height: 67px;
+}
+
+#list .filter_box .filter_box_b > li:first-child > ul {
+  padding: 0 0 0 13px;
+}
+
+#list .filter_box .filter_box_b > li:first-child > ul > li {
+  height: 68px;
+  line-height: 68px;
+}
+
+#list .filter_box .filter_box_b > li:first-child > ul > li a {
+  width: 86px;
+  height: 68px;
+  line-height: 68px;
+  padding-left: 0;
+}
+
+#list .filter_box .filter_box_b > li:first-child > ul > li a img {
+  width: 86px;
+  height: 40px;
+  border-right: 1px #e8e8e8 solid;
+}
+
+#list .filter_box .filter_box_b > li:first-child > a {
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  background: #F4F4F4;
+  padding: 0 8px 0 20px;
+  position: absolute;
+  top: 8px;
+  right: 63px;
+}
+
+#list .filter_box .filter_box_b > li:first-child > a i {
+  position: absolute;
+  font-size: 12px;
+  left: 4px;
+  font-weight: bold;
+}
