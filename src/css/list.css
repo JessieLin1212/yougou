@@ -402,6 +402,7 @@
 #list .good_box > ul > li .goods_jieshao .goods_title {
   display: block;
   height: 40px;
+  overflow: hidden;
 }
 
 #list .good_box > ul > li .goods_jieshao .goods_title:hover {

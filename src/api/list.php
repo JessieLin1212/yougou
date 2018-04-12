@@ -7,12 +7,12 @@
   // 获取前端数据
   $type = isset($_GET['type']) ? $_GET['type'] : null;
   $page = isset($_GET['page']) ? $_GET['page'] : 1;
-  $qty = isset($_GET['qty']) ? $_GET['qty'] : 60;
+  $qty = isset($_GET['qty']) ? $_GET['qty'] : 15;
 
   //获取查询结果集（集合）
   $idx = ($page-1)*$qty;
 
-  if($type === 'zonghe'){
+  if($type === 'recommend'){
     $sql = "select * from goods order by id*1 limit $idx,$qty";
 
     // 查询sql语句,得到查询结果集合（对象）
@@ -29,7 +29,7 @@
     echo json_encode($row,JSON_UNESCAPED_UNICODE);
 
   }else if($type === 'price'){
-    $sql = "select * from goods order by price*1 limit $idx,$qty";
+    $sql = "select * from goods order by sale_price*1 limit $idx,$qty";
 
     $res = $conn->query($sql);
 

@@ -341,6 +341,7 @@
                 .goods_title{
                   display: block;
                   height: 40px;
+                  overflow: hidden;
                   &:hover{
                     color: #e60012;
                   }
