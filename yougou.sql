@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50714
 File Encoding         : 65001
 
-Date: 2018-04-12 22:48:47
+Date: 2018-04-13 10:59:34
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -32,7 +32,7 @@ CREATE TABLE `goods` (
   `img3` varchar(255) NOT NULL DEFAULT '../picture/null.jpg',
   `add_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=18 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=37 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of goods
@@ -54,6 +54,25 @@ INSERT INTO `goods` VALUES ('14', 'BASTO/百思图2018春季专柜同款黑色�
 INSERT INTO `goods` VALUES ('15', 'Tata/他她夏季绿色PU潮流金属风精致铆钉链条时尚女包2DT47BX7', '599.00', '599.00', '绿色', 'F', '../picture/goodslist15.jpg', '../picture/goodslist15_1.jpg', '../picture/goodslist15_2.jpg', '../picture/goodslist15_3.jpg', '2018-04-12 22:34:07');
 INSERT INTO `goods` VALUES ('16', 'Ist belle/百丽箱包秋季喵星人黑人造革背提包X3804CX7', '298.00', '898.00', '黑色', 'F', '../picture/goodslist16.jpg', '../picture/goodslist16_1.jpg', '../picture/goodslist16_2.jpg', '../picture/goodslist16_3.jpg', '2018-04-12 22:36:26');
 INSERT INTO `goods` VALUES ('17', 'STACCATO/思加图冬季专柜同款黑白格子布面女双肩包X1724DX7', '498.00', '1099.00', '黑白', 'F', '../picture/goodslist17.jpg', '../picture/goodslist17_1.jpg', '../picture/goodslist17_2.jpg', '../picture/goodslist17_3.jpg', '2018-04-12 22:46:02');
+INSERT INTO `goods` VALUES ('18', 'STACCATO/思加图2018春专柜同款黄色牛皮平安虎头装饰女皮包X1781AN8', '1128.00', '1590.00', '黄色', 'F', '../picture/goodslist18.jpg', '../picture/goodslist18_1.jpg', '../picture/goodslist18_2.jpg', '../picture/goodslist18_3.jpg', '2018-04-13 09:35:38');
+INSERT INTO `goods` VALUES ('19', 'BASTO/百思图冬季灰色人造革金属环手提女单肩包X1233DX7', '232.00', '599.00', '灰色', 'F', '../picture/goodslist19.jpg', '../picture/goodslist19_1.jpg', '../picture/goodslist19_2.jpg', '../picture/goodslist19_3.jpg', '2018-04-13 09:38:16');
+INSERT INTO `goods` VALUES ('20', 'Tata/他她2018春专柜同款黑/白/深兰PU拼色金属圆环时尚单肩女包X1988AX8', '699.00', '699.00', '黑/白/深兰', 'F', '../picture/goodslist20.jpg', '../picture/goodslist20_1.jpg', '../picture/goodslist29_2.jpg', '../picture/goodslist29_3.jpg', '2018-04-13 09:40:44');
+INSERT INTO `goods` VALUES ('21', 'Teenmix/天美意2018夏专柜同款棕色复古风单肩邮差包女包AA072BN8', '329.00', '399.00', '棕色', 'F', '../picture/goodslist21.jpg', '../picture/goodslist21_1.jpg', '../picture/goodslist21_2.jpg', '../picture/goodslist21_3.jpg', '2018-04-13 09:43:55');
+INSERT INTO `goods` VALUES ('22', 'Teenmix/天美意冬专柜同款白色铆钉珠饰织带单肩斜跨两用女包X1386DN7', '339.00', '599.00', '白色', 'F', '../picture/goodslist22.jpg', '../picture/goodslist22_1.jpg', '../picture/goodslist22_2.jpg', '../picture/goodslist22_3.jpg', '2018-04-13 10:30:23');
+INSERT INTO `goods` VALUES ('23', 'Ist belle2018春新品专柜同款荔纹牛剖层皮革时尚背提包C1286AN8', '458.00', '799.00', '绿色', 'F', '../picture/goodslist23.jpg', '../picture/goodslist23_1.jpg', '../picture/goodslist23_2.jpg', '../picture/goodslist23_3.jpg', '2018-04-13 10:28:04');
+INSERT INTO `goods` VALUES ('24', 'millie\'s/妙丽2018夏专柜同款人造革时尚女单肩斜挎包X0541BX8', '1199.00', '1199.00', '白色', 'F', '../picture/goodslist24.jpg', '../picture/goodslist24_1.jpg', '../picture/goodslist24_2.jpg', '../picture/goodslist24_3.jpg', '2018-04-13 10:24:21');
+INSERT INTO `goods` VALUES ('25', 'Ist belle/百丽冬季专柜同款绿色牛剖层皮革配绒布时尚背提包X3947DN7', '999.00', '999.00', '绿色', 'F', '../picture/goodslist25.jpg', '../picture/goodslist25_1.jpg', '../picture/goodslist25_2.jpg', '../picture/goodslist25_3.jpg', '2018-04-13 10:34:10');
+INSERT INTO `goods` VALUES ('26', 'Ist belle/百丽箱包秋季大英联名款专柜同款黑人造革印花铆钉宽肩带小方包X3833CX7', '998.00', '998.00', '黑色', 'F', '../picture/goodslist26.jpg', '../picture/goodslist26_1.jpg', '../picture/goodslist26_2.jpg', '../picture/goodslist26_3.jpg', '2018-04-13 10:34:59');
+INSERT INTO `goods` VALUES ('27', 'BASTO/百思图秋季专柜同款白色牛剖层皮革/人造革条纹女单肩包C1211CX7', '999.00', '999.00', '白色', 'F', '../picture/goodslist27.jpg', '../picture/goodslist27_1.jpg', '../picture/goodslist27_2.jpg', '../picture/goodslist27_3.jpg', '2018-04-13 10:37:08');
+INSERT INTO `goods` VALUES ('28', 'Tata/他她春季浅兰色压花牛剖层皮时尚女包X1841AX7', '899.00', '899.00', '浅兰色', 'F', '../picture/goodslist28.jpg', '../picture/goodslist28_1.jpg', '../picture/goodslist28_2.jpg', '../picture/goodslist28_3.jpg', '2018-04-13 10:36:37');
+INSERT INTO `goods` VALUES ('29', 'Ist belle秋季专柜同款兰色人造革背提包X1802CX7', '899.00', '899.00', '兰色', 'F', '../picture/goodslist29.jpg', '../picture/goodslist29_1.jpg', '../picture/goodslist29_2.jpg', '../picture/goodslist29_3.jpg', '2018-04-13 10:38:26');
+INSERT INTO `goods` VALUES ('30', 'BASTO/百思图秋季专柜同款灰/黑人造革/化纤布毛球简约休闲女单肩包X1018CX7', '899.00', '899.00', '灰/黑', 'F', '../picture/goodslist30.jpg', '../picture/goodslist30_1.jpg', '../picture/goodslist30_2.jpg', '../picture/goodslist30_3.jpg', '2018-04-13 10:39:03');
+INSERT INTO `goods` VALUES ('31', 'Teenmix/天美意冬黑色时尚小巧精美刺绣单肩斜挎两用女包X1367DN7', '568.00', '568.00', '黑色', 'F', '../picture/goodslist31.jpg', '../picture/goodslist31_1.jpg', '../picture/goodslist31_2.jpg', '../picture/goodslist31_3.jpg', '2018-04-13 10:40:08');
+INSERT INTO `goods` VALUES ('32', 'Ist belle/百丽箱包秋黑色人造革宽肩带斜跨包12542CX7', '199.00', '668.00', '黑色', 'F', '../picture/goodslist32.jpg', '../picture/goodslist32_1.jpg', '../picture/goodslist32_2.jpg', '../picture/goodslist32_3.jpg', '2018-04-13 10:41:48');
+INSERT INTO `goods` VALUES ('33', 'millie\'s/妙丽2018夏专柜同款人造革时尚女手提单肩包X0542BX8', '868.00', '1299.00', '黑色', 'F', '../picture/goodslist33.jpg', '../picture/goodslist33_1.jpg', '../picture/goodslist33_2.jpg', '../picture/goodslist33_3.jpg', '2018-04-13 10:44:40');
+INSERT INTO `goods` VALUES ('34', 'millie\'s/妙丽2018春专柜同款人造革时尚单肩斜挎包X0517AN8', '829.00', '1099.00', '兰/黄', 'F', '../picture/goodslist34.jpg', '../picture/goodslist34_1.jpg', '../picture/goodslist34_2.jpg', '../picture/goodslist34_3.jpg', '2018-04-13 10:48:48');
+INSERT INTO `goods` VALUES ('35', 'Ist belle冬季专柜同款墨绿人造革时尚包X3889DN7', '799.00', '799.00', '墨绿', 'F', '../picture/goodslist35.jpg', '../picture/goodslist35_1.jpg', '../picture/goodslist35_2.jpg', '../picture/goodslist35_3.jpg', '2018-04-13 10:53:50');
+INSERT INTO `goods` VALUES ('36', 'BASTO/百思图2018夏季专柜同款棕色牛剖层皮革毛球休闲女单肩包X1484BN8', '568.00', '999.00', '棕色', 'F', '../picture/goodslist36.jpg', '../picture/goodslist36_1.jpg', '../picture/goodslist36_2.jpg', '../picture/goodslist36_3.jpg', '2018-04-13 10:56:35');
 
 -- ----------------------------
 -- Table structure for user

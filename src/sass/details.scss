@@ -11,5 +11,144 @@
 }
 
 #details{
-    
+    .details_box{
+        .details_fenlei{
+            height: 22px;
+            line-height: 22px;
+            margin: 3px auto;
+            >a{
+                color: #36C;
+                &:hover{
+                    color: #e60012;
+                }
+            }
+        }
+        .details_b{
+            .details_content{
+                float: left;
+                .img_box{
+                    float: left;
+                    .big_img{
+                        width: 482px;
+                        height: 482px;
+                        border: 1px solid #ccc;
+                        img{
+                            width: 480px;
+                            height: 480px;
+                        }
+                    }
+                    .small_img{
+                        padding: 2px;
+                        margin-top: 12px;
+                        text-align: center;
+                        img{
+                            width: 62px;
+                            height: 62px;
+                            border: 1px solid #ccc;
+                            &.img_active{
+                                border: 1px solid #e60012;
+                            }
+                        }
+                    }
+                    .img_footer{
+                        overflow: hidden;
+                        padding: 8px 0;
+                        .goods_num{
+                            float: left;
+                            color: #AAA;
+                        }
+                        .fenxiang{
+                            float: right;
+                            i{
+                                display: inline-block;
+                                width: 15px;
+                                height: 15px;
+                                vertical-align: middle;
+                                background: url("../img/details_img.png") no-repeat 0 -167px;
+                                &:first-child{
+                                    background-position: 0 -144px;
+                                }
+                            }
+                            a{
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+                .content_box{
+                    float: right;
+                    margin-left: 18px;
+                    width: 490px;
+                    h1{
+                        line-height: 28px;
+                        font-size: 16px;
+                        font-weight: bold;
+                    }
+                    >p{
+                        color: #e60012;
+                    }
+                    >a{
+                        display: block;
+                        line-height: 31px;
+                        color: #36c;
+                        text-decoration: underline;
+                        font-size: 14px;
+                        &:hover{
+                            color: #e60012;
+                        }
+                    }
+                    .d_price_box{
+                        height: 68px;
+                        line-height: 68px;
+                        color: #e60012;
+                        font-size: 22px;
+                        .sale_price{
+                            font-size: 30px;
+                        }
+                        del{
+                            color: #aaa;
+                            font-size: 12px;
+                            margin-left: 10px;
+                        }
+                    }
+                    .pingfen{
+                        line-height: 30px;
+                        span{
+                            display: inline-block;
+                            >i{
+                                display: inline-block;
+                                width: 63px;
+                                height: 13px;
+                                vertical-align: middle;
+                                background: url("../img/star_show.png") no-repeat 0 -100px;
+                            }
+                            >a{
+                                color: #36C;
+                                &:hover{
+                                    color: #e60012;
+                                }
+                            }
+                        }
+                        .zixun{
+                            float: right;
+                            >i{
+                                float: left;
+                                width: 25px;
+                                height: 25px;
+                                background: url("../img/details_img.png") no-repeat 0 -180px;
+                            }
+                            >a{
+                                float: left;
+                                line-height: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+            .details_tuijian{
+                float: right;
+            }
+        }
+    }
+
 }

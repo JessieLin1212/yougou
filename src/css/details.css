@@ -5,3 +5,171 @@
 .yg_nav .all_fenlei:hover .fenlei_nav {
   display: block;
 }
+
+#details .details_box .details_fenlei {
+  height: 22px;
+  line-height: 22px;
+  margin: 3px auto;
+}
+
+#details .details_box .details_fenlei > a {
+  color: #36C;
+}
+
+#details .details_box .details_fenlei > a:hover {
+  color: #e60012;
+}
+
+#details .details_box .details_b .details_content {
+  float: left;
+}
+
+#details .details_box .details_b .details_content .img_box {
+  float: left;
+}
+
+#details .details_box .details_b .details_content .img_box .big_img {
+  width: 482px;
+  height: 482px;
+  border: 1px solid #ccc;
+}
+
+#details .details_box .details_b .details_content .img_box .big_img img {
+  width: 480px;
+  height: 480px;
+}
+
+#details .details_box .details_b .details_content .img_box .small_img {
+  padding: 2px;
+  margin-top: 12px;
+  text-align: center;
+}
+
+#details .details_box .details_b .details_content .img_box .small_img img {
+  width: 62px;
+  height: 62px;
+  border: 1px solid #ccc;
+}
+
+#details .details_box .details_b .details_content .img_box .small_img img.img_active {
+  border: 1px solid #e60012;
+}
+
+#details .details_box .details_b .details_content .img_box .img_footer {
+  overflow: hidden;
+  padding: 8px 0;
+}
+
+#details .details_box .details_b .details_content .img_box .img_footer .goods_num {
+  float: left;
+  color: #AAA;
+}
+
+#details .details_box .details_b .details_content .img_box .img_footer .fenxiang {
+  float: right;
+}
+
+#details .details_box .details_b .details_content .img_box .img_footer .fenxiang i {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  background: url("../img/details_img.png") no-repeat 0 -167px;
+}
+
+#details .details_box .details_b .details_content .img_box .img_footer .fenxiang i:first-child {
+  background-position: 0 -144px;
+}
+
+#details .details_box .details_b .details_content .img_box .img_footer .fenxiang a {
+  margin-right: 10px;
+}
+
+#details .details_box .details_b .details_content .content_box {
+  float: right;
+  margin-left: 18px;
+  width: 490px;
+}
+
+#details .details_box .details_b .details_content .content_box h1 {
+  line-height: 28px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#details .details_box .details_b .details_content .content_box > p {
+  color: #e60012;
+}
+
+#details .details_box .details_b .details_content .content_box > a {
+  display: block;
+  line-height: 31px;
+  color: #36c;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+#details .details_box .details_b .details_content .content_box > a:hover {
+  color: #e60012;
+}
+
+#details .details_box .details_b .details_content .content_box .d_price_box {
+  height: 68px;
+  line-height: 68px;
+  color: #e60012;
+  font-size: 22px;
+}
+
+#details .details_box .details_b .details_content .content_box .d_price_box .sale_price {
+  font-size: 30px;
+}
+
+#details .details_box .details_b .details_content .content_box .d_price_box del {
+  color: #aaa;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+#details .details_box .details_b .details_content .content_box .pingfen {
+  line-height: 30px;
+}
+
+#details .details_box .details_b .details_content .content_box .pingfen span {
+  display: inline-block;
+}
+
+#details .details_box .details_b .details_content .content_box .pingfen span > i {
+  display: inline-block;
+  width: 63px;
+  height: 13px;
+  vertical-align: middle;
+  background: url("../img/star_show.png") no-repeat 0 -100px;
+}
+
+#details .details_box .details_b .details_content .content_box .pingfen span > a {
+  color: #36C;
+}
+
+#details .details_box .details_b .details_content .content_box .pingfen span > a:hover {
+  color: #e60012;
+}
+
+#details .details_box .details_b .details_content .content_box .pingfen .zixun {
+  float: right;
+}
+
+#details .details_box .details_b .details_content .content_box .pingfen .zixun > i {
+  float: left;
+  width: 25px;
+  height: 25px;
+  background: url("../img/details_img.png") no-repeat 0 -180px;
+}
+
+#details .details_box .details_b .details_content .content_box .pingfen .zixun > a {
+  float: left;
+  line-height: 30px;
+}
+
+#details .details_box .details_b .details_tuijian {
+  float: right;
+}
