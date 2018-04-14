@@ -142,6 +142,14 @@ require(['config'],function(){
 
             price_ajax()
         })
+
+        //传参
+        $('.goodslist').on("click","li",function(){
+            let params = this.getAttribute('data-id');
+            console.log(params);
+            location.href = 'details.html?' + params;
+
+        }) ;
          
     });
 

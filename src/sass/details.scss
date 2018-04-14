@@ -23,7 +23,8 @@
                 }
             }
         }
-        .details_b{
+        .details_c{
+            padding-bottom: 35px;
             .details_content{
                 float: left;
                 .img_box{
@@ -143,12 +144,224 @@
                             }
                         }
                     }
+                    .choose_box{
+                        margin-top: 5px;
+                        padding: 22px 0 0 10px;
+                        background: #f8f8f8;
+                        position: relative;
+                        .color_box{
+                            overflow: hidden;
+                            em{
+                                float: left;
+                            }
+                            span{
+                                float: left;
+                                margin-left: 12px;
+                                margin-bottom: 8px;
+                                cursor: pointer;
+                                border: 1px solid #ddd;
+                                &:hover{
+                                    border: 1px solid #e60012;
+                                }
+                                &.color_active{
+                                    border: 1px solid #e60012;
+                                }
+                                img{
+                                    width: 40px;
+                                    height: 40px;
+                                }
+                            }
+                        }
+                        .size_box{
+                            overflow: hidden;
+                            margin-top: 10px;
+                            em{
+                                float: left;
+                            }
+                            span{
+                                float: left;
+                                width: 34px;
+                                height: 20px;
+                                line-height: 20px;
+                                border: 1px solid #a7a7a7;
+                                text-align: center;
+                                margin-left: 12px;
+                                margin-bottom: 10px;
+                                background: #fff;
+                                cursor: pointer;
+                                &:hover{
+                                    border: 1px solid #e60012;
+                                }
+                                &.size_active{
+                                    border: 1px solid #e60012;
+                                }
+                            }
+                        }
+                        .qty_box{
+                            overflow: hidden;
+                            padding: 3px 0;
+                            em{
+                                float: left;
+                                &.choose_color{
+                                    color: #e60012;
+                                    margin-left: 8px;
+                                    font-weight: bold;
+                                }
+                            }
+                            span{
+                                float: left;
+                                width: 12px;
+                                height: 12px;
+                                line-height: 10px;
+                                background: #fff;
+                                cursor: pointer;
+                                text-align: center;
+                                border: 1px solid #ddd;
+                                margin-top: 4px;
+                                &.qty_less{
+                                    margin-left: 12px;
+                                }
+                                &.qty_more{
+                                    margin-right: 10px;
+                                }
+                            }
+                            input{
+                                float: left;
+                                width: 27px;
+                                height: 20px;
+                                line-height: 20px;
+                                border: 1px solid #ddd;
+                                text-align: center;
+                                margin: 0 5px;
+                            }
+                        }
+                        .btn_box{
+                            margin-top: 20px;
+                            padding-bottom: 15px;
+                            button{
+                                width: 127px;
+                                height: 37px;
+                                line-height: 35px;
+                                text-align: center;
+                                margin-right: 10px;
+                                font-size: 15px;
+                                font-weight: bold;
+                                background: #fff;
+                                border: 1px solid #d90d0d;
+                                cursor: pointer;
+                                color: #e60012;
+                                &#add_btn{
+                                    background: #e60012;
+                                    color: #fff;
+                                }
+                            }
+                        }
+                        .erweima_box{
+                            position: absolute;
+                            top: 34px;
+                            right: 15px;
+                            text-align: center;
+                            img{
+                                width: 128px;
+                                height: 128px;
+                            }
+                        }
+                    }
+                    >span{
+                        display: block;
+                        color: #999;
+                        margin: 8px 10px;
+                        i{
+                            color: #666;
+                        }
+                    }
+                    .ser_promise{
+                        li{
+                            float: left;
+                            margin-left: 42px;
+                            color: #999;
+                            padding: 10px;
+                            padding-right: 0;
+                            &:first-child{
+                                margin-left: 0;
+                            }
+                            i{
+                                display: inline-block;
+                                width: 20px;
+                                height: 22px;
+                                vertical-align: middle;
+                                background: url("../img/details_img.png") no-repeat 0 -210px;
+                            }
+                            a{
+                                padding-left: 3px;
+                                color: #999;
+                                &:hover{
+                                    color: #e60012;
+                                }
+                            }
+                        }
+                    }
                 }
             }
-            .details_tuijian{
-                float: right;
+            // .details_tuijian{
+            //     float: right;
+            // }
+        }
+        .details_b{
+            .details_tab{
+                float: left;
+                width: 971px;
+                border-bottom: 2px solid #c01;
+                >li{
+                    float: left;
+                    p{
+                        width: 94px;
+                        height: 31px;
+                        line-height: 31px;
+                        // padding: 0 18px;
+                        border: 1px solid #ccc;
+                        border-bottom: 0 none;
+                        margin-left: -1px;
+                        text-align: center;
+                        cursor: pointer;
+                        color: #535353;
+                        font-size: 14px;
+                        &.tab_active{
+                            background: #c01;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+            .xiangqing{
+                margin-top: 15px;
+                float: left;
+                padding-bottom: 20px;
+                img{
+                    width: 880px;
+                }
             }
         }
     }
-
+    #to_top{
+        width: 30px;
+        height: 30px;
+        position: fixed;
+        top: 82%;
+        right: 0.1%;
+        background: rgba(7,7,7,.5);
+        border-radius:6px;
+        text-align: center;
+        cursor: pointer;
+        display: none;
+        i{
+            display: inline-block;
+            font-size: 22px;
+            color: #fff;
+            margin-top: 6px;
+        }
+        &:hover{
+            background: rgba(255,0,0,.8);
+        }
+    }
 }
