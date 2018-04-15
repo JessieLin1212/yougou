@@ -1,3 +1,300 @@
 .container {
   width: 990px;
 }
+
+#car .car_top {
+  margin-top: 15px;
+  overflow: hidden;
+}
+
+#car .car_top h1 {
+  float: left;
+}
+
+#car .car_top h1 a {
+  display: inline-block;
+}
+
+#car .car_top h1 a img {
+  width: 355px;
+  height: 50px;
+}
+
+#car .car_top > ul {
+  float: right;
+  margin-top: 20px;
+}
+
+#car .car_top > ul li {
+  float: left;
+  width: 200px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  position: relative;
+  background: #E8E8E8;
+}
+
+#car .car_top > ul li em {
+  position: absolute;
+  top: -2px;
+  right: -12px;
+  border: 12px dashed transparent;
+  border-left: 12px solid #fff;
+  border-right: 0 none;
+  z-index: 2;
+}
+
+#car .car_top > ul li i {
+  position: absolute;
+  top: 0;
+  right: -9px;
+  border: 10px dashed transparent;
+  border-left: 10px solid #e8e8e8;
+  border-right: 0 none;
+  z-index: 2;
+}
+
+#car .car_top > ul li.current {
+  background: #f90;
+  color: #fff;
+}
+
+#car .car_top > ul li.current i {
+  border-color: transparent transparent transparent #f90;
+}
+
+#car .car_content {
+  margin-top: 20px;
+  border: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+#car .car_content .car_content_top {
+  height: 42px;
+  line-height: 42px;
+  border-bottom: 1px solid #eee;
+  padding-left: 20px;
+}
+
+#car .car_content .car_content_top > p {
+  float: left;
+  color: #aaa;
+  text-align: center;
+}
+
+#car .car_content .car_content_qx {
+  width: 88px;
+}
+
+#car .car_content .goods_name {
+  float: left;
+  width: 322px;
+  padding-left: 20px;
+  padding-right: 52px;
+}
+
+#car .car_content .goods_color, #car .car_content .goods_price, #car .car_content .goods_qty, #car .car_content .goods_xj, #car .car_content .goods_cz {
+  width: 110px;
+  float: left;
+  text-align: center;
+}
+
+#car .car_content .car_list li {
+  overflow: hidden;
+  padding: 10px 0 10px 12px;
+  border-bottom: 1px dotted #eee;
+}
+
+#car .car_content .car_list li .item_check {
+  float: left;
+  padding-top: 29px;
+}
+
+#car .car_content .car_list li .car_img {
+  float: left;
+  padding: 5px;
+  border: 1px solid #e6e6e6;
+  background: #fff;
+  margin-left: 8px;
+}
+
+#car .car_content .car_list li .car_img img {
+  width: 60px;
+  height: 60px;
+}
+
+#car .car_content .car_list li > .car_title {
+  padding-top: 17px;
+}
+
+#car .car_content .car_list li > .color_box {
+  padding-top: 10px;
+}
+
+#car .car_content .car_list li > .color_box > p {
+  color: #aaa;
+  text-align: left;
+  padding-left: 22px;
+}
+
+#car .car_content .car_list li > .color_box > p span {
+  color: #666;
+}
+
+#car .car_content .car_list li > .goods_price, #car .car_content .car_list li > .item_xj_price {
+  height: 72px;
+  line-height: 72px;
+}
+
+#car .car_content .car_list li > .item_xj_price {
+  color: #e60012;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#car .car_content .car_list li > .item_qty {
+  text-align: center;
+  padding-top: 23px;
+  padding-left: 18px;
+}
+
+#car .car_content .car_list li > .item_qty > span {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  border: 1px solid #eee;
+  float: left;
+  cursor: pointer;
+}
+
+#car .car_content .car_list li > .item_qty > span.item_qty_less {
+  border-right: 0 none;
+}
+
+#car .car_content .car_list li > .item_qty > span.item_qty_more {
+  border-left: 0 none;
+}
+
+#car .car_content .car_list li > .item_qty > span:hover {
+  color: #e60012;
+}
+
+#car .car_content .car_list li > .item_qty .item_qty_txt {
+  width: 28px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  border: 1px solid #eee;
+  float: left;
+}
+
+#car .car_content .car_list li > .goods_cz {
+  padding-top: 17px;
+}
+
+#car .car_content .car_list li > .goods_cz a {
+  display: block;
+}
+
+#car .car_content .check_b {
+  overflow: hidden;
+}
+
+#car .car_content .check_b li {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 12px;
+  margin-right: 40px;
+}
+
+#car .car_content .btn_box {
+  background: #eee;
+  overflow: hidden;
+}
+
+#car .car_content .btn_box > a {
+  display: block;
+  width: 126px;
+  height: 42px;
+  line-height: 42px;
+  float: left;
+  margin: 6px 0 6px 35px;
+  background: #FDF8F2;
+  border: 1px solid #FADE94;
+  text-align: center;
+  font-size: 14px;
+}
+
+#car .car_content .btn_box .del_all {
+  float: left;
+  margin-left: 30px;
+  color: #36c;
+  line-height: 54px;
+  cursor: pointer;
+}
+
+#car .car_content .btn_box .check_all {
+  float: right;
+  line-height: 50px;
+}
+
+#car .car_content .btn_box .check_all > span {
+  color: #a9a9a9;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#car .car_content .btn_box .check_all > span .total_price {
+  color: #e60012;
+  font-size: 22px;
+  margin-left: 5px;
+}
+
+#car .car_content .btn_box .check_all .pay {
+  width: 130px;
+  height: 54px;
+  line-height: 54px;
+  color: #fff;
+  background: #ff5000;
+  font-size: 14px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+#car .car_fuwu {
+  margin-top: 15px;
+  padding-bottom: 15px;
+  text-align: right;
+  color: #a9a9a9;
+}
+
+#car .car_fuwu p {
+  line-height: 22px;
+}
+
+#car .car_fuwu p i {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-left: 10px;
+  background: url("../img/shopcart-sprite.png") no-repeat 0 0;
+}
+
+#car .car_fuwu a {
+  color: #a9a9a9;
+}
+
+#car .car_fuwu a:hover {
+  color: #C81623;
+}
+
+#car .car_footer {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #d9d9d9;
+  text-align: center;
+}

@@ -10,10 +10,41 @@ Target Server Type    : MYSQL
 Target Server Version : 50714
 File Encoding         : 65001
 
-Date: 2018-04-13 10:59:34
+Date: 2018-04-16 01:07:04
 */
 
 SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for car
+-- ----------------------------
+DROP TABLE IF EXISTS `car`;
+CREATE TABLE `car` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `c_id` varchar(255) NOT NULL,
+  `img` varchar(255) NOT NULL DEFAULT '../picture/null.jpg',
+  `title` varchar(255) NOT NULL,
+  `color` varchar(255) NOT NULL,
+  `size` varchar(255) NOT NULL DEFAULT 'F',
+  `sale_price` varchar(255) NOT NULL,
+  `qty` int(11) NOT NULL,
+  `xiaoji` varchar(255) NOT NULL,
+  `add_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of car
+-- ----------------------------
+INSERT INTO `car` VALUES ('1', '5', 'http://localhost:9712/picture/goodslist05.jpg', 'BASTO/百思图2018春季专柜同款浅灰色人造革简约休闲女单肩包X1388AN8', '浅灰色', 'F', '398.00', '2', '796', '2018-04-15 23:39:03');
+INSERT INTO `car` VALUES ('2', '8', 'http://localhost:9712/picture/goodslist08.jpg', 'Teenmix/天美意2018春专柜同款深兰/红色简约单肩翅膀包女包X1463AX8', '深兰/红色', 'F', '499.00', '6', '2994', '2018-04-15 23:40:24');
+INSERT INTO `car` VALUES ('3', '3', 'http://localhost:9712/picture/goodslist03.jpg', 'Tata/他她秋粉色PU通勤拼色饰扣时尚女包7057DCN7', '粉色', 'F', '899.00', '1', '899', '2018-04-15 23:41:56');
+INSERT INTO `car` VALUES ('4', '9', 'http://localhost:9712/picture/goodslist09.jpg', 'Ist belle/百丽箱包2018春新品大英联名款专柜同款浅兰人造革时尚背提包X3962AN8', '浅兰', 'F', '528.00', '3', '1584', '2018-04-15 23:57:49');
+INSERT INTO `car` VALUES ('5', '14', 'http://localhost:9712/picture/goodslist14.jpg', 'BASTO/百思图2018春季专柜同款黑色牛剖层皮革/人造革简约时尚单肩手提女包X1325AN8', '黑色', 'F', '518.00', '9', '4662', '2018-04-15 23:58:12');
+INSERT INTO `car` VALUES ('6', '13', 'http://localhost:9712/picture/goodslist13.jpg', 'BASTO/百思图夏季浅灰色人造革铆钉条带时尚女包X1049BX7', '浅灰色', 'F', '398.00', '2', '796', '2018-04-16 00:40:34');
+INSERT INTO `car` VALUES ('7', '1', 'http://localhost:9712/picture/goodslist01.jpg', 'Teenmix/天美意秋专柜同款米白/深兰/红色时尚金属扣斜挎包女包X1322CX7', '米白/深兰/红色', 'F', '259.00', '6', '1554', '2018-04-16 00:41:23');
+INSERT INTO `car` VALUES ('8', '22', 'http://localhost:9712/picture/goodslist22.jpg', 'Teenmix/天美意冬专柜同款白色铆钉珠饰织带单肩斜跨两用女包X1386DN7', '白色', 'F', '339.00', '2', '678', '2018-04-16 00:43:26');
+INSERT INTO `car` VALUES ('9', '35', 'http://localhost:9712/picture/goodslist35.jpg', 'Ist belle冬季专柜同款墨绿人造革时尚包X3889DN7', '墨绿', 'F', '799.00', '1', '799', '2018-04-16 01:05:12');
 
 -- ----------------------------
 -- Table structure for goods

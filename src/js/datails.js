@@ -50,6 +50,15 @@ require(['config'],function(){
             dataType:'json',
             success:function(data){
 
+                let goods_title = data.map(function(item){
+                    return `<span class="goods_title">${item.title}</span>`
+
+                }).join('');
+
+                $('.details_fenlei').append(goods_title);
+
+
+
                 let img_box = data.map(function(item){
                     return `<div class="big_img">
                                 <img src="${item.img1}" alt="" />
@@ -73,53 +82,150 @@ require(['config'],function(){
 
                 }).join('');
 
-                // console.log(img_box);
-
                 $('.img_box').append(img_box);
 
 
                 
+                let content = data.map(function(item){
+                    return `<h1 class="details_title">${item.title}</h1>
+                            <p>时尚铆钉，金属扣装饰</p>
+                            <a href="">更多teenmix/天美意商品>></a>
+                            <div class="d_price_box">
+                                ¥
+                                <b class="sale_price">${item.sale_price}</b>
+                                <del>
+                                    ¥
+                                    <i class="goods_price">${item.goods_price}</i>
+                                </del>
+                            </div>`
+
+                }).join('');
+
+                $('.content_box').prepend(content);
 
 
                 
+                let choose = data.map(function(item){
+                    return `<div class="color_box">
+                                    <em>颜色</em>
+                                    <span class="color_active" data-name="${item.color}">
+                                        <img src="${item.img}" alt="" />
+                                    </span>
+                                </div>
+                                <p class="size_box">
+                                    <em>尺码</em>
+                                    <span class="size_active">${item.size}</span>
+                                </p>`
+
+                }).join('');
+
+                $('.choose_box').prepend(choose);
 
 
 
-                // $('.img_big').gdsZoom({
-                //   position:'right'
-                // });
+                let color = data.map(function(item){
+                    return `<em class="choose_color">${item.color}</em>`
 
-                // $('.img_small').on('click','img',function(){
-                //   $('.img_big img').attr({
-                //     src:this.src,
-                //     'data-big':this.dataset.big || this.src
-                //   })
-                // })
+                }).join('');
+
+                $('.qty_box').append(color);
+
+
+
+                // 放大镜
+                $('.big_img').gdsZoom({
+                    position:'right'
+                });
+
+                $('.small_img').on('click','img',function(){
+
+                    $('.big_img img').attr({
+                        src:this.src,
+                        'data-big':this.dataset.big || this.src
+                    })
+
+                    if($(this).hasClass('img_active')){
+                        $(this).siblings().removeClass('img_active');
+                    }else{
+                        $(this).siblings().removeClass('img_active');
+                        $(this).addClass('img_active');
+                    }
+                    
+                })
+
+                // 加入购物车
+                $('#add_btn').on('click',function(){
+                    console.log(params);
+
+                    let $img = $('.color_active').find('img')[0].src;
+
+                    let $title = $('.details_title').text();
+
+                    let $color = $('.choose_color').text();
+
+                    let $size = $('.size_active').text();
+                  
+                    let $price = $('.sale_price').text();
+
+                    let $qty = $('.qty_txt').val();
+                  
+                    let xiaoji = $price*$qty;
+
+                    console.log($img,$title,$color,$size,$price,$qty,xiaoji);
+
+                    $.ajax({
+                        url:'../api/addcar.php',
+                        data:{
+                            c_id:params,
+                            img:$img,
+                            title:$title,
+                            color:$color,
+                            size:$size,
+                            price:$price,
+                            qty:$qty,
+                            xiaoji:xiaoji
+                        },
+                        dataType:'json',
+                        success:function(data){
+                            console.log(data);
+                        }
+                    
+                    })
+
+                    location.href = 'car.html';
+
+                })
 
             }
 
 
         })
 
+        
 
         // 增加数量
-        // $('.details_qty_more').on('click',function(){
-        //     // console.log(666);
-        //     let $details_qty = $('.details_qty').val()*1;
-        //     $details_qty += 1;
-        //     $('.details_qty').val($details_qty);
-        //     // console.log($('.details_qty').val());
+        $('.qty_more').on('click',function(){
+            // console.log(666);
+            let $qty_txt = $('.qty_txt').val()*1;
+            $qty_txt += 1;
+            $('.qty_txt').val($qty_txt);
+            // console.log($('.qty_txt').val());
             
-        // })
+        })
 
         // 减少数量
-        // $('.details_qty_less').on('click',function(){
-        //     // console.log(666);
-        //     let $details_qty = $('.details_qty').val()*1;
-        //     $details_qty -= 1;
-        //     $('.details_qty').val($details_qty);
-        //     // console.log($('.details_qty').val());
-        // })
+        $('.qty_less').on('click',function(){
+            // console.log(666);
+            let $qty_txt = $('.qty_txt').val()*1;
+            $qty_txt -= 1;
+            if($qty_txt<=0){
+                $qty_txt = 1;
+            }
+            $('.qty_txt').val($qty_txt);
+            // console.log($('.qty_txt').val());
+        })
+
+
          
     });
 

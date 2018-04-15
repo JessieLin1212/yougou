@@ -5,7 +5,9 @@
     // 获取前端数据
     $c_id = isset($_GET['c_id']) ? $_GET['c_id'] : null;
     $img = isset($_GET['img']) ? $_GET['img'] : null;
-    $description = isset($_GET['description']) ? $_GET['description'] : null;
+    $title = isset($_GET['title']) ? $_GET['title'] : null;
+    $color = isset($_GET['color']) ? $_GET['color'] : null;
+    $size = isset($_GET['size']) ? $_GET['size'] : null;
     $price = isset($_GET['price']) ? $_GET['price'] : null;
     $qty = isset($_GET['qty']) ? $_GET['qty'] : null;
     $xiaoji = isset($_GET['xiaoji']) ? $_GET['xiaoji'] : null;
@@ -28,7 +30,7 @@
         echo "ok";
     }else{
         // 加入购物车（保存到数据库）
-        $sql = "insert into car(c_id,img,description,price,qty,xiaoji) values('$c_id','$img','$description','$price','$qty','$xiaoji')";
+        $sql = "insert into car(c_id,img,title,color,size,sale_price,qty,xiaoji) values('$c_id','$img','$title','$color','$size','$price','$qty','$xiaoji')";
 
         // 执行sql语句
         $res = $conn->query($sql);
