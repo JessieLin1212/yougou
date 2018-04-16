@@ -121,14 +121,20 @@ require(['config'],function(){
 
                 });
 
-                // function checkall(){
+                $item_check.on('click',function(){
 
-                //     // 获取选中的复选框
-                //     let $checkeds = $item_check.filter(':checked');
+                    checkall();
 
-                //     // 判断勾选数量与checkbox的数量是否相等
-                //     $checkAll.prop('checked',$item_check.length===$checkeds.length);
-                // }
+                });
+
+                function checkall(){
+
+                    // 获取选中的复选框
+                    let $checkeds = $item_check.filter(':checked');
+
+                    // 判断勾选数量与checkbox的数量是否相等
+                    $checkAll.prop('checked',$item_check.length===$checkeds.length);
+                }
             }
         })
          
